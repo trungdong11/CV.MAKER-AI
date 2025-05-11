@@ -2,6 +2,7 @@ import logging
 from fastapi import FastAPI, HTTPException, UploadFile, File, Request
 from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.openapi.utils import get_openapi
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pickle
 import numpy as np
@@ -40,7 +41,6 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Định nghĩa các model Gemini và thứ tự ưu tiên
 GEMINI_MODELS = [
     "gemini-1.5-pro-latest",
     "gemini-1.5-pro",
@@ -75,7 +75,7 @@ max_scores = {
 }
 
 # Tổng max_scores để tính thang 100
-total_max_score = sum(score for score in max_scores.values() if score > 0)  # 100
+total_max_score = sum(score for score in max_scores.values() if score > 0)
 
 # Định nghĩa schema cho dữ liệu đầu vào
 class Segment(BaseModel):
@@ -88,9 +88,18 @@ class CVInput(BaseModel):
 # Khởi tạo FastAPI app với cấu hình Swagger
 app = FastAPI(**SWAGGER_UI_PARAMETERS)
 
+# Cấu hình CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Rate limiting configuration
-RATE_LIMIT = 100  # requests
-RATE_WINDOW = 3600  # seconds (1 hour)
+RATE_LIMIT = 100
+RATE_WINDOW = 3600
 request_history = defaultdict(list)
 
 # Custom rate limiting middleware
