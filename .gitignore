@@ -9,3 +9,5 @@
 .env.staging.local
 .env.production
 .env.production.local
+
+cv_scoring_api.log

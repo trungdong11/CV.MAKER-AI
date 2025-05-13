@@ -42,12 +42,29 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 GEMINI_MODELS = [
-    "gemini-1.5-pro-latest",
-    "gemini-1.5-pro",
-    "gemini-1.5-flash-latest",
-    "gemini-1.5-flash",
-    "gemini-pro"
+    "gemini-2.0-flash-lite",
+    "gemini-2.0-flash"
+    # "gemini-2.0-flash-exp",
+    # "gemini-2.5-flash-preview-04-17"
+    # "gemini-1.5-pro-latest",
+    # "gemini-1.5-pro",
+    # "gemini-1.5-flash-latest",
+    # "gemini-1.5-flash",
+    # "gemini-pro"
 ]
+
+# GEMINI_MODELS = [
+#     "gemini-2.5-flash",
+#     "gemini-2.5-pro",
+#     "gemini-2.0-flash",
+#     "gemini-2.0-flash-lite",
+#     "gemini-2.0-pro-latest",
+#     "gemini-2.0-pro",
+#     "gemini-2.0-flash-latest",
+#     "gemini-1.5-flash",
+#     "gemini-1.5-flash-8b",
+#     "gemini-1.5-pro",
+# ]
 
 # Cấu hình Swagger
 SWAGGER_UI_PARAMETERS = {
@@ -86,7 +103,10 @@ class CVInput(BaseModel):
     segments: List[Segment]
 
 # Khởi tạo FastAPI app với cấu hình Swagger
-app = FastAPI(**SWAGGER_UI_PARAMETERS)
+app = FastAPI(
+    **SWAGGER_UI_PARAMETERS,
+    root_path="/api/v1"  # Thêm prefix cho tất cả routes
+)
 
 # Cấu hình CORS
 app.add_middleware(
@@ -145,7 +165,15 @@ async def call_gemini_with_fallback(prompt: str, max_retries: int = 3) -> str:
     for model_name in GEMINI_MODELS:
         try:
             model = genai.GenerativeModel(model_name)
-            response = model.generate_content(prompt)
+            response = model.generate_content(
+                contents=prompt,
+                generation_config={
+                    "temperature": 0.7,
+                    "top_p": 0.8,
+                    "top_k": 40,
+                    "max_output_tokens": 2048,
+                }
+            )
             return response.text.strip("```json\n").strip("```")
         except Exception as e:
             last_error = e
@@ -374,10 +402,8 @@ async def upload_cv(file: UploadFile = File(...)):
         # Extract text based on file type
         if ext == ".pdf":
             text = extract_text_from_pdf(file)
-            print(text, 'check text pdf');
         else:
             text = extract_text_from_doc(file)
-            print(text, 'check text doc');
 
         # Segment CV
         segments = await segment_cv_gemini(text)
