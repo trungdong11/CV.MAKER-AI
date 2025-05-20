@@ -16955,3 +16955,521 @@ violations {
 2025-05-13 22:42:00,988 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
 2025-05-13 22:42:04,644 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
 2025-05-13 22:42:05,292 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:53:54,952 - INFO - Loading model and components
+2025-05-13 22:54:29,259 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:32,008 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:32,629 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:35,436 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:36,176 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:39,631 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:40,285 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:54:43,437 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:56:19,326 - INFO - Loading model and components
+2025-05-13 22:56:57,925 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:57:01,079 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:57:01,702 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:57:05,352 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:57:05,988 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:57:10,035 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 22:57:10,816 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:02:01,906 - INFO - Starting CV processing...
+2025-05-13 23:02:01,979 - INFO - Text extraction completed in 0.07 seconds
+2025-05-13 23:02:09,109 - INFO - CV segmentation completed in 7.13 seconds
+2025-05-13 23:02:09,109 - INFO - Loading model and components
+2025-05-13 23:02:10,167 - INFO - Models loaded in 1.06 seconds
+2025-05-13 23:02:10,170 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-13 23:02:10,175 - INFO - Score prediction for Personal Info completed in 0.01 seconds
+2025-05-13 23:02:11,873 - INFO - Grammar check for Personal Info completed in 1.70 seconds
+2025-05-13 23:02:14,452 - INFO - Suggestions generation for Personal Info completed in 2.58 seconds
+2025-05-13 23:02:14,452 - INFO - Total processing time for Personal Info: 4.28 seconds
+2025-05-13 23:02:14,453 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-13 23:02:14,456 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-13 23:02:17,209 - INFO - Grammar check for Summary completed in 2.75 seconds
+2025-05-13 23:02:20,773 - INFO - Suggestions generation for Summary completed in 3.56 seconds
+2025-05-13 23:02:20,774 - INFO - Total processing time for Summary: 6.32 seconds
+2025-05-13 23:02:20,775 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-13 23:02:20,778 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-13 23:02:24,113 - INFO - Grammar check for Skills completed in 3.34 seconds
+2025-05-13 23:02:28,378 - INFO - Suggestions generation for Skills completed in 4.26 seconds
+2025-05-13 23:02:28,378 - INFO - Total processing time for Skills: 7.60 seconds
+2025-05-13 23:02:28,380 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-13 23:02:28,382 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-13 23:02:33,049 - INFO - Grammar check for Work Experience completed in 4.67 seconds
+2025-05-13 23:02:36,545 - INFO - Suggestions generation for Work Experience completed in 3.50 seconds
+2025-05-13 23:02:36,546 - INFO - Total processing time for Work Experience: 8.17 seconds
+2025-05-13 23:02:36,547 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-13 23:02:36,551 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-13 23:02:39,381 - INFO - Grammar check for Education completed in 2.83 seconds
+2025-05-13 23:02:42,267 - INFO - Suggestions generation for Education completed in 2.89 seconds
+2025-05-13 23:02:42,267 - INFO - Total processing time for Education: 5.72 seconds
+2025-05-13 23:02:42,269 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-13 23:02:42,272 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-13 23:02:42,982 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:02:42,982 - INFO - Grammar check for Projects completed in 0.71 seconds
+2025-05-13 23:02:47,153 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:02:47,153 - INFO - Suggestions generation for Projects completed in 4.17 seconds
+2025-05-13 23:02:47,154 - INFO - Total processing time for Projects: 4.88 seconds
+2025-05-13 23:02:47,155 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-13 23:02:47,159 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-13 23:02:50,164 - INFO - Grammar check for Certifications completed in 3.00 seconds
+2025-05-13 23:02:52,519 - INFO - Suggestions generation for Certifications completed in 2.36 seconds
+2025-05-13 23:02:52,520 - INFO - Total processing time for Certifications: 5.36 seconds
+2025-05-13 23:02:52,521 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-13 23:02:52,524 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-13 23:02:53,414 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:02:53,415 - INFO - Grammar check for Languages completed in 0.89 seconds
+2025-05-13 23:02:56,932 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:02:56,933 - INFO - Suggestions generation for Languages completed in 3.52 seconds
+2025-05-13 23:02:56,933 - INFO - Total processing time for Languages: 4.41 seconds
+2025-05-13 23:02:56,935 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:02:56,938 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:02:57,951 - INFO - Grammar check for Organizational & Volunteering completed in 1.01 seconds
+2025-05-13 23:03:00,943 - INFO - Suggestions generation for Organizational & Volunteering completed in 2.99 seconds
+2025-05-13 23:03:00,944 - INFO - Total processing time for Organizational & Volunteering: 4.01 seconds
+2025-05-13 23:03:00,945 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-13 23:03:00,948 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-13 23:03:01,693 - ERROR - Error checking grammar with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:03:01,694 - INFO - Grammar check for Awards completed in 0.74 seconds
+2025-05-13 23:03:05,262 - ERROR - Error getting suggestions with Gemini: Expecting value: line 1 column 1 (char 0)
+2025-05-13 23:03:05,263 - INFO - Suggestions generation for Awards completed in 3.57 seconds
+2025-05-13 23:03:05,264 - INFO - Total processing time for Awards: 4.32 seconds
+2025-05-13 23:03:05,264 - INFO - CV scoring completed in 56.15 seconds
+2025-05-13 23:03:05,265 - INFO - Total processing time: 63.36 seconds
+2025-05-13 23:09:37,715 - INFO - Starting CV processing...
+2025-05-13 23:09:37,808 - INFO - Text extraction completed in 0.09 seconds
+2025-05-13 23:09:43,251 - INFO - CV segmentation completed in 5.44 seconds
+2025-05-13 23:09:43,251 - INFO - Loading model and components
+2025-05-13 23:09:43,252 - ERROR - Error loading models: [Errno 2] No such file or directory: 'models/xgb_model.pkl'
+2025-05-13 23:09:43,252 - ERROR - Error scoring segments: 500: Failed to load models
+2025-05-13 23:09:43,252 - ERROR - Error processing CV: 500: Failed to score CV: 500: Failed to load models
+2025-05-13 23:10:15,812 - INFO - Starting CV processing...
+2025-05-13 23:10:15,922 - INFO - Text extraction completed in 0.11 seconds
+2025-05-13 23:10:22,071 - INFO - CV segmentation completed in 6.15 seconds
+2025-05-13 23:10:22,072 - INFO - Loading model and components
+2025-05-13 23:10:22,072 - ERROR - Error loading models: [Errno 2] No such file or directory: 'models/xgb_model.pkl'
+2025-05-13 23:10:22,073 - ERROR - Error scoring segments: 500: Failed to load models
+2025-05-13 23:10:22,073 - ERROR - Error processing CV: 500: Failed to score CV: 500: Failed to load models
+2025-05-13 23:13:05,004 - INFO - Starting CV processing...
+2025-05-13 23:13:05,092 - INFO - Text extraction completed in 0.09 seconds
+2025-05-13 23:13:12,367 - INFO - CV segmentation completed in 7.27 seconds
+2025-05-13 23:13:12,367 - INFO - Loading model and components
+2025-05-13 23:13:13,431 - INFO - Successfully loaded all models
+2025-05-13 23:13:13,432 - INFO - Models loaded in 1.07 seconds
+2025-05-13 23:13:13,435 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-13 23:13:13,440 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-13 23:13:15,211 - INFO - Grammar check for Personal Info completed in 1.77 seconds
+2025-05-13 23:13:17,515 - INFO - Suggestions generation for Personal Info completed in 2.30 seconds
+2025-05-13 23:13:17,516 - INFO - Total processing time for Personal Info: 4.08 seconds
+2025-05-13 23:13:17,517 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-13 23:13:17,520 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-13 23:13:20,396 - INFO - Grammar check for Summary completed in 2.88 seconds
+2025-05-13 23:13:23,476 - INFO - Suggestions generation for Summary completed in 3.08 seconds
+2025-05-13 23:13:23,476 - INFO - Total processing time for Summary: 5.96 seconds
+2025-05-13 23:13:23,478 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-13 23:13:23,481 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-13 23:13:25,819 - INFO - Grammar check for Skills completed in 2.34 seconds
+2025-05-13 23:13:30,687 - INFO - Suggestions generation for Skills completed in 4.87 seconds
+2025-05-13 23:13:30,688 - INFO - Total processing time for Skills: 7.21 seconds
+2025-05-13 23:13:30,690 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-13 23:13:30,693 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-13 23:13:32,569 - INFO - Grammar check for Work Experience completed in 1.88 seconds
+2025-05-13 23:13:36,023 - INFO - Suggestions generation for Work Experience completed in 3.45 seconds
+2025-05-13 23:13:36,024 - INFO - Total processing time for Work Experience: 5.33 seconds
+2025-05-13 23:13:36,026 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-13 23:13:36,029 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-13 23:13:38,446 - INFO - Grammar check for Education completed in 2.42 seconds
+2025-05-13 23:13:41,685 - INFO - Suggestions generation for Education completed in 3.24 seconds
+2025-05-13 23:13:41,686 - INFO - Total processing time for Education: 5.66 seconds
+2025-05-13 23:13:41,687 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-13 23:13:41,691 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-13 23:13:41,691 - INFO - Grammar check for Projects completed in 0.00 seconds
+2025-05-13 23:13:41,692 - INFO - Suggestions generation for Projects completed in 0.00 seconds
+2025-05-13 23:13:41,692 - INFO - Total processing time for Projects: 0.00 seconds
+2025-05-13 23:13:41,694 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-13 23:13:41,698 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-13 23:13:42,971 - INFO - Grammar check for Certifications completed in 1.27 seconds
+2025-05-13 23:13:45,193 - INFO - Suggestions generation for Certifications completed in 2.22 seconds
+2025-05-13 23:13:45,194 - INFO - Total processing time for Certifications: 3.50 seconds
+2025-05-13 23:13:45,195 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-13 23:13:45,199 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-13 23:13:45,199 - INFO - Grammar check for Languages completed in 0.00 seconds
+2025-05-13 23:13:45,200 - INFO - Suggestions generation for Languages completed in 0.00 seconds
+2025-05-13 23:13:45,200 - INFO - Total processing time for Languages: 0.00 seconds
+2025-05-13 23:13:45,202 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:13:45,206 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:13:46,369 - INFO - Grammar check for Organizational & Volunteering completed in 1.16 seconds
+2025-05-13 23:13:49,503 - INFO - Suggestions generation for Organizational & Volunteering completed in 3.13 seconds
+2025-05-13 23:13:49,503 - INFO - Total processing time for Organizational & Volunteering: 4.30 seconds
+2025-05-13 23:13:49,505 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-13 23:13:49,508 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-13 23:13:49,509 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-13 23:13:49,509 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-13 23:13:49,510 - INFO - Total processing time for Awards: 0.00 seconds
+2025-05-13 23:13:49,511 - INFO - CV scoring completed in 37.14 seconds
+2025-05-13 23:13:49,511 - INFO - Total processing time: 44.51 seconds
+2025-05-13 23:14:27,018 - INFO - Starting CV processing...
+2025-05-13 23:14:27,064 - INFO - Text extraction completed in 0.04 seconds
+2025-05-13 23:14:33,031 - INFO - CV segmentation completed in 5.97 seconds
+2025-05-13 23:14:33,031 - INFO - Loading model and components
+2025-05-13 23:14:33,032 - INFO - Models loaded in 0.00 seconds
+2025-05-13 23:14:33,033 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-13 23:14:33,037 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-13 23:14:34,637 - INFO - Grammar check for Personal Info completed in 1.60 seconds
+2025-05-13 23:14:37,674 - INFO - Suggestions generation for Personal Info completed in 3.04 seconds
+2025-05-13 23:14:37,674 - INFO - Total processing time for Personal Info: 4.64 seconds
+2025-05-13 23:14:37,676 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-13 23:14:37,679 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-13 23:14:41,623 - INFO - Grammar check for Summary completed in 3.94 seconds
+2025-05-13 23:14:44,620 - INFO - Suggestions generation for Summary completed in 3.00 seconds
+2025-05-13 23:14:44,621 - INFO - Total processing time for Summary: 6.94 seconds
+2025-05-13 23:14:44,622 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-13 23:14:44,626 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-13 23:14:47,742 - INFO - Grammar check for Skills completed in 3.11 seconds
+2025-05-13 23:14:50,636 - INFO - Suggestions generation for Skills completed in 2.89 seconds
+2025-05-13 23:14:50,637 - INFO - Total processing time for Skills: 6.01 seconds
+2025-05-13 23:14:50,639 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-13 23:14:50,642 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-13 23:14:56,287 - INFO - Grammar check for Work Experience completed in 5.64 seconds
+2025-05-13 23:15:00,322 - INFO - Suggestions generation for Work Experience completed in 4.03 seconds
+2025-05-13 23:15:00,323 - INFO - Total processing time for Work Experience: 9.68 seconds
+2025-05-13 23:15:00,325 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-13 23:15:00,328 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-13 23:15:02,319 - INFO - Grammar check for Education completed in 1.99 seconds
+2025-05-13 23:15:05,089 - INFO - Suggestions generation for Education completed in 2.77 seconds
+2025-05-13 23:15:05,089 - INFO - Total processing time for Education: 4.76 seconds
+2025-05-13 23:15:05,091 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-13 23:15:05,094 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-13 23:15:05,095 - INFO - Grammar check for Projects completed in 0.00 seconds
+2025-05-13 23:15:05,095 - INFO - Suggestions generation for Projects completed in 0.00 seconds
+2025-05-13 23:15:05,096 - INFO - Total processing time for Projects: 0.00 seconds
+2025-05-13 23:15:05,098 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-13 23:15:05,103 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-13 23:15:07,971 - INFO - Grammar check for Certifications completed in 2.87 seconds
+2025-05-13 23:15:10,854 - INFO - Suggestions generation for Certifications completed in 2.88 seconds
+2025-05-13 23:15:10,854 - INFO - Total processing time for Certifications: 5.76 seconds
+2025-05-13 23:15:10,856 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-13 23:15:10,860 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-13 23:15:12,089 - INFO - Grammar check for Languages completed in 1.23 seconds
+2025-05-13 23:15:14,488 - INFO - Suggestions generation for Languages completed in 2.40 seconds
+2025-05-13 23:15:14,489 - INFO - Total processing time for Languages: 3.63 seconds
+2025-05-13 23:15:14,490 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:15:14,493 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:15:14,494 - INFO - Grammar check for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:15:14,494 - INFO - Suggestions generation for Organizational & Volunteering completed in 0.00 seconds
+2025-05-13 23:15:14,494 - INFO - Total processing time for Organizational & Volunteering: 0.00 seconds
+2025-05-13 23:15:14,497 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-13 23:15:14,500 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-13 23:15:14,501 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-13 23:15:14,501 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-13 23:15:14,501 - INFO - Total processing time for Awards: 0.00 seconds
+2025-05-13 23:15:14,504 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-13 23:15:14,507 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-13 23:15:16,768 - INFO - Grammar check for Personal Info completed in 2.26 seconds
+2025-05-13 23:15:19,623 - INFO - Suggestions generation for Personal Info completed in 2.86 seconds
+2025-05-13 23:15:19,624 - INFO - Total processing time for Personal Info: 5.12 seconds
+2025-05-13 23:15:19,625 - WARNING - Invalid section: Hobbies
+2025-05-13 23:15:19,625 - INFO - CV scoring completed in 46.59 seconds
+2025-05-13 23:15:19,626 - INFO - Total processing time: 52.61 seconds
+2025-05-14 17:29:07,587 - INFO - Starting CV processing...
+2025-05-14 17:29:07,679 - INFO - Text extraction completed in 0.09 seconds
+2025-05-14 17:29:14,761 - INFO - CV segmentation completed in 7.08 seconds
+2025-05-14 17:29:14,762 - INFO - Loading model and components
+2025-05-14 17:29:15,120 - INFO - Successfully loaded all models
+2025-05-14 17:29:15,120 - INFO - Models loaded in 0.36 seconds
+2025-05-14 17:29:15,122 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-14 17:29:15,128 - INFO - Score prediction for Personal Info completed in 0.01 seconds
+2025-05-14 17:29:17,966 - INFO - Grammar check for Personal Info completed in 2.84 seconds
+2025-05-14 17:29:22,549 - INFO - Suggestions generation for Personal Info completed in 4.58 seconds
+2025-05-14 17:29:22,549 - INFO - Total processing time for Personal Info: 7.43 seconds
+2025-05-14 17:29:22,551 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-14 17:29:22,554 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-14 17:29:24,734 - INFO - Grammar check for Summary completed in 2.18 seconds
+2025-05-14 17:29:27,813 - INFO - Suggestions generation for Summary completed in 3.08 seconds
+2025-05-14 17:29:27,813 - INFO - Total processing time for Summary: 5.26 seconds
+2025-05-14 17:29:27,816 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-14 17:29:27,820 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-14 17:29:29,424 - INFO - Grammar check for Skills completed in 1.60 seconds
+2025-05-14 17:29:34,110 - INFO - Suggestions generation for Skills completed in 4.69 seconds
+2025-05-14 17:29:34,110 - INFO - Total processing time for Skills: 6.29 seconds
+2025-05-14 17:29:34,112 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-14 17:29:34,115 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-14 17:29:37,198 - INFO - Grammar check for Work Experience completed in 3.08 seconds
+2025-05-14 17:29:40,287 - INFO - Suggestions generation for Work Experience completed in 3.09 seconds
+2025-05-14 17:29:40,287 - INFO - Total processing time for Work Experience: 6.17 seconds
+2025-05-14 17:29:40,289 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-14 17:29:40,292 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-14 17:29:42,028 - INFO - Grammar check for Education completed in 1.74 seconds
+2025-05-14 17:29:44,876 - INFO - Suggestions generation for Education completed in 2.85 seconds
+2025-05-14 17:29:44,877 - INFO - Total processing time for Education: 4.59 seconds
+2025-05-14 17:29:44,878 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-14 17:29:44,881 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-14 17:29:49,668 - INFO - Grammar check for Projects completed in 4.79 seconds
+2025-05-14 17:29:53,902 - INFO - Suggestions generation for Projects completed in 4.23 seconds
+2025-05-14 17:29:53,904 - INFO - Total processing time for Projects: 9.02 seconds
+2025-05-14 17:29:53,906 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-14 17:29:53,913 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-14 17:29:53,914 - INFO - Grammar check for Certifications completed in 0.00 seconds
+2025-05-14 17:29:53,914 - INFO - Suggestions generation for Certifications completed in 0.00 seconds
+2025-05-14 17:29:53,914 - INFO - Total processing time for Certifications: 0.01 seconds
+2025-05-14 17:29:53,917 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-14 17:29:53,923 - INFO - Score prediction for Languages completed in 0.01 seconds
+2025-05-14 17:29:53,924 - INFO - Grammar check for Languages completed in 0.00 seconds
+2025-05-14 17:29:53,924 - INFO - Suggestions generation for Languages completed in 0.00 seconds
+2025-05-14 17:29:53,925 - INFO - Total processing time for Languages: 0.01 seconds
+2025-05-14 17:29:53,927 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-14 17:29:53,932 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-14 17:29:53,932 - INFO - Grammar check for Organizational & Volunteering completed in 0.00 seconds
+2025-05-14 17:29:53,933 - INFO - Suggestions generation for Organizational & Volunteering completed in 0.00 seconds
+2025-05-14 17:29:53,933 - INFO - Total processing time for Organizational & Volunteering: 0.01 seconds
+2025-05-14 17:29:53,938 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-14 17:29:53,946 - INFO - Score prediction for Awards completed in 0.01 seconds
+2025-05-14 17:29:53,946 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-14 17:29:53,946 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-14 17:29:53,947 - INFO - Total processing time for Awards: 0.01 seconds
+2025-05-14 17:29:53,948 - INFO - CV scoring completed in 39.19 seconds
+2025-05-14 17:29:53,948 - INFO - Total processing time: 46.36 seconds
+2025-05-16 23:32:15,337 - INFO - Starting document processing...
+2025-05-16 23:32:15,476 - INFO - Text extraction completed in 0.14 seconds
+2025-05-16 23:32:29,083 - INFO - Document processing completed in 13.61 seconds
+2025-05-16 23:32:29,084 - INFO - Total processing time: 13.75 seconds
+2025-05-16 23:33:36,491 - INFO - Starting CV processing...
+2025-05-16 23:33:36,572 - INFO - Text extraction completed in 0.08 seconds
+2025-05-16 23:33:36,572 - ERROR - Error processing CV: name 'segment_cv_gemini' is not defined
+2025-05-16 23:33:43,297 - INFO - Starting CV processing...
+2025-05-16 23:33:43,375 - INFO - Text extraction completed in 0.08 seconds
+2025-05-16 23:33:43,375 - ERROR - Error processing CV: name 'segment_cv_gemini' is not defined
+2025-05-16 23:38:11,440 - INFO - Starting CV processing...
+2025-05-16 23:38:11,579 - INFO - Text extraction completed in 0.14 seconds
+2025-05-16 23:38:18,754 - INFO - CV segmentation completed in 7.18 seconds
+2025-05-16 23:38:18,754 - INFO - Loading model and components
+2025-05-16 23:38:19,918 - INFO - Successfully loaded all models
+2025-05-16 23:38:19,918 - INFO - Models loaded in 1.16 seconds
+2025-05-16 23:38:19,927 - ERROR - Error scoring segments: idf vector is not fitted
+2025-05-16 23:38:19,927 - ERROR - Error processing CV: 
+2025-05-16 23:39:36,758 - INFO - Starting CV processing...
+2025-05-16 23:39:36,898 - INFO - Text extraction completed in 0.14 seconds
+2025-05-16 23:39:44,418 - INFO - CV segmentation completed in 7.52 seconds
+2025-05-16 23:39:44,419 - INFO - Loading model and components
+2025-05-16 23:39:45,407 - INFO - Successfully loaded all models
+2025-05-16 23:39:45,407 - INFO - Models loaded in 0.99 seconds
+2025-05-16 23:39:45,412 - ERROR - Error scoring segments: idf vector is not fitted
+2025-05-16 23:39:45,413 - ERROR - Error processing CV: 
+2025-05-16 23:54:06,405 - INFO - Starting CV processing...
+2025-05-16 23:54:06,491 - INFO - Text extraction completed in 0.09 seconds
+2025-05-16 23:54:13,203 - INFO - CV segmentation completed in 6.71 seconds
+2025-05-16 23:54:13,204 - INFO - Loading model and components
+2025-05-16 23:54:14,421 - INFO - Successfully loaded all models
+2025-05-16 23:54:14,422 - INFO - Models loaded in 1.22 seconds
+2025-05-16 23:54:14,430 - INFO - Feature extraction for Personal Info completed in 0.01 seconds
+2025-05-16 23:54:14,435 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-16 23:54:16,349 - INFO - Grammar check for Personal Info completed in 1.91 seconds
+2025-05-16 23:54:19,421 - INFO - Suggestions generation for Personal Info completed in 3.07 seconds
+2025-05-16 23:54:19,422 - INFO - Total processing time for Personal Info: 5.00 seconds
+2025-05-16 23:54:19,424 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-16 23:54:19,427 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-16 23:54:20,703 - INFO - Grammar check for Summary completed in 1.28 seconds
+2025-05-16 23:54:23,739 - INFO - Suggestions generation for Summary completed in 3.03 seconds
+2025-05-16 23:54:23,740 - INFO - Total processing time for Summary: 4.31 seconds
+2025-05-16 23:54:23,741 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-16 23:54:23,744 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-16 23:54:25,944 - INFO - Grammar check for Skills completed in 2.20 seconds
+2025-05-16 23:54:29,689 - INFO - Suggestions generation for Skills completed in 3.74 seconds
+2025-05-16 23:54:29,689 - INFO - Total processing time for Skills: 5.95 seconds
+2025-05-16 23:54:29,691 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-16 23:54:29,694 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-16 23:54:32,229 - INFO - Grammar check for Work Experience completed in 2.53 seconds
+2025-05-16 23:54:35,393 - INFO - Suggestions generation for Work Experience completed in 3.16 seconds
+2025-05-16 23:54:35,394 - INFO - Total processing time for Work Experience: 5.70 seconds
+2025-05-16 23:54:35,395 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-16 23:54:35,399 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-16 23:54:43,467 - INFO - Grammar check for Education completed in 8.07 seconds
+2025-05-16 23:54:48,000 - INFO - Suggestions generation for Education completed in 4.53 seconds
+2025-05-16 23:54:48,001 - INFO - Total processing time for Education: 12.60 seconds
+2025-05-16 23:54:48,003 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-16 23:54:48,006 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-16 23:54:52,346 - INFO - Grammar check for Projects completed in 4.34 seconds
+2025-05-16 23:54:58,116 - INFO - Suggestions generation for Projects completed in 5.77 seconds
+2025-05-16 23:54:58,116 - INFO - Total processing time for Projects: 10.11 seconds
+2025-05-16 23:54:58,128 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-16 23:54:58,131 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-16 23:54:58,132 - INFO - Grammar check for Certifications completed in 0.00 seconds
+2025-05-16 23:54:58,132 - INFO - Suggestions generation for Certifications completed in 0.00 seconds
+2025-05-16 23:54:58,133 - INFO - Total processing time for Certifications: 0.00 seconds
+2025-05-16 23:54:58,135 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-16 23:54:58,140 - INFO - Score prediction for Languages completed in 0.01 seconds
+2025-05-16 23:54:58,140 - INFO - Grammar check for Languages completed in 0.00 seconds
+2025-05-16 23:54:58,141 - INFO - Suggestions generation for Languages completed in 0.00 seconds
+2025-05-16 23:54:58,141 - INFO - Total processing time for Languages: 0.01 seconds
+2025-05-16 23:54:58,144 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-16 23:54:58,149 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-16 23:54:58,149 - INFO - Grammar check for Organizational & Volunteering completed in 0.00 seconds
+2025-05-16 23:54:58,150 - INFO - Suggestions generation for Organizational & Volunteering completed in 0.00 seconds
+2025-05-16 23:54:58,150 - INFO - Total processing time for Organizational & Volunteering: 0.01 seconds
+2025-05-16 23:54:58,153 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-16 23:54:58,157 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-16 23:54:58,158 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-16 23:54:58,159 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-16 23:54:58,159 - INFO - Total processing time for Awards: 0.01 seconds
+2025-05-16 23:54:58,160 - INFO - CV scoring completed in 44.96 seconds
+2025-05-16 23:54:58,160 - INFO - Total processing time: 51.75 seconds
+2025-05-17 00:05:43,264 - INFO - Starting CV processing...
+2025-05-17 00:05:43,370 - INFO - Text extraction completed in 0.11 seconds
+2025-05-17 00:05:49,564 - INFO - CV segmentation completed in 6.19 seconds
+2025-05-17 00:05:49,565 - INFO - Loading model and components
+2025-05-17 00:05:50,659 - INFO - Successfully loaded all models
+2025-05-17 00:05:50,659 - INFO - Models loaded in 1.09 seconds
+2025-05-17 00:05:50,662 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-17 00:05:50,667 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-17 00:05:52,903 - INFO - Grammar check for Personal Info completed in 2.24 seconds
+2025-05-17 00:05:57,622 - INFO - Suggestions generation for Personal Info completed in 4.72 seconds
+2025-05-17 00:05:57,622 - INFO - Total processing time for Personal Info: 6.96 seconds
+2025-05-17 00:05:57,624 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-17 00:05:57,627 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-17 00:05:59,465 - INFO - Grammar check for Summary completed in 1.84 seconds
+2025-05-17 00:06:04,135 - INFO - Suggestions generation for Summary completed in 4.67 seconds
+2025-05-17 00:06:04,136 - INFO - Total processing time for Summary: 6.51 seconds
+2025-05-17 00:06:04,137 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-17 00:06:04,140 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-17 00:06:06,102 - INFO - Grammar check for Skills completed in 1.96 seconds
+2025-05-17 00:06:10,211 - INFO - Suggestions generation for Skills completed in 4.11 seconds
+2025-05-17 00:06:10,211 - INFO - Total processing time for Skills: 6.07 seconds
+2025-05-17 00:06:10,213 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-17 00:06:10,216 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-17 00:06:12,368 - INFO - Grammar check for Work Experience completed in 2.15 seconds
+2025-05-17 00:06:15,759 - INFO - Suggestions generation for Work Experience completed in 3.39 seconds
+2025-05-17 00:06:15,760 - INFO - Total processing time for Work Experience: 5.55 seconds
+2025-05-17 00:06:15,761 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-17 00:06:15,764 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-17 00:06:17,072 - INFO - Grammar check for Education completed in 1.31 seconds
+2025-05-17 00:06:19,534 - INFO - Suggestions generation for Education completed in 2.46 seconds
+2025-05-17 00:06:19,535 - INFO - Total processing time for Education: 3.77 seconds
+2025-05-17 00:06:19,537 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-17 00:06:19,540 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-17 00:06:24,465 - INFO - Grammar check for Projects completed in 4.92 seconds
+2025-05-17 00:06:27,784 - INFO - Suggestions generation for Projects completed in 3.32 seconds
+2025-05-17 00:06:27,785 - INFO - Total processing time for Projects: 8.25 seconds
+2025-05-17 00:06:27,786 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-17 00:06:27,789 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-17 00:06:27,790 - INFO - Grammar check for Certifications completed in 0.00 seconds
+2025-05-17 00:06:27,790 - INFO - Suggestions generation for Certifications completed in 0.00 seconds
+2025-05-17 00:06:27,790 - INFO - Total processing time for Certifications: 0.00 seconds
+2025-05-17 00:06:27,793 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-17 00:06:27,798 - INFO - Score prediction for Languages completed in 0.01 seconds
+2025-05-17 00:06:27,798 - INFO - Grammar check for Languages completed in 0.00 seconds
+2025-05-17 00:06:27,798 - INFO - Suggestions generation for Languages completed in 0.00 seconds
+2025-05-17 00:06:27,799 - INFO - Total processing time for Languages: 0.01 seconds
+2025-05-17 00:06:27,801 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-17 00:06:27,805 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-17 00:06:27,805 - INFO - Grammar check for Organizational & Volunteering completed in 0.00 seconds
+2025-05-17 00:06:27,806 - INFO - Suggestions generation for Organizational & Volunteering completed in 0.00 seconds
+2025-05-17 00:06:27,806 - INFO - Total processing time for Organizational & Volunteering: 0.01 seconds
+2025-05-17 00:06:27,809 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-17 00:06:27,813 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-17 00:06:27,814 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-17 00:06:27,814 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-17 00:06:27,815 - INFO - Total processing time for Awards: 0.01 seconds
+2025-05-17 00:06:27,816 - INFO - CV scoring completed in 38.25 seconds
+2025-05-17 00:06:27,816 - INFO - Total processing time: 44.55 seconds
+2025-05-17 00:09:08,348 - INFO - Starting document processing...
+2025-05-17 00:09:12,735 - INFO - Starting document processing...
+2025-05-17 00:12:23,517 - INFO - Starting document processing...
+2025-05-17 00:12:23,615 - INFO - Text extraction completed in 0.10 seconds
+2025-05-17 00:12:31,539 - INFO - Document parsing completed in 7.92 seconds
+2025-05-17 00:12:31,539 - INFO - Total processing time: 8.02 seconds
+2025-05-17 00:14:17,845 - INFO - Starting document processing...
+2025-05-17 00:14:17,954 - INFO - Text extraction completed in 0.11 seconds
+2025-05-17 00:14:25,475 - INFO - Document parsing completed in 7.52 seconds
+2025-05-17 00:14:25,487 - INFO - Total processing time: 7.64 seconds
+2025-05-17 00:16:58,549 - INFO - Starting document processing...
+2025-05-17 00:16:58,641 - INFO - Text extraction completed in 0.09 seconds
+2025-05-17 00:17:07,044 - INFO - Document parsing completed in 8.40 seconds
+2025-05-17 00:17:07,046 - INFO - Total processing time: 8.50 seconds
+2025-05-17 00:21:29,395 - INFO - Starting document processing...
+2025-05-17 00:21:29,539 - INFO - Text extraction completed in 0.14 seconds
+2025-05-17 00:21:37,355 - INFO - Document parsing completed in 7.82 seconds
+2025-05-17 00:21:37,359 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:21:37,359 - WARNING - Could not parse date: Present, using current date
+2025-05-17 00:21:37,360 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:21:37,361 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:21:37,361 - WARNING - Could not parse date: Present, using current date
+2025-05-17 00:21:37,362 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:21:37,362 - WARNING - Could not parse date: Present, using current date
+2025-05-17 00:21:37,363 - INFO - Total processing time: 7.97 seconds
+2025-05-17 00:25:36,690 - INFO - Starting document processing...
+2025-05-17 00:25:36,775 - INFO - Text extraction completed in 0.08 seconds
+2025-05-17 00:25:43,832 - INFO - Document parsing completed in 7.06 seconds
+2025-05-17 00:25:43,835 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:25:43,836 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:25:43,836 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:25:43,837 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:25:43,837 - INFO - Total processing time: 7.15 seconds
+2025-05-17 00:32:05,058 - INFO - Starting document processing...
+2025-05-17 00:32:05,157 - INFO - Text extraction completed in 0.10 seconds
+2025-05-17 00:32:12,669 - INFO - Document parsing completed in 7.51 seconds
+2025-05-17 00:32:12,673 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:32:12,674 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:32:12,674 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:32:12,674 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:32:12,675 - INFO - Total processing time: 7.62 seconds
+2025-05-17 00:37:57,528 - INFO - Starting document processing...
+2025-05-17 00:37:57,625 - INFO - Text extraction completed in 0.10 seconds
+2025-05-17 00:38:05,188 - INFO - Document parsing completed in 7.56 seconds
+2025-05-17 00:38:05,191 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:38:05,192 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:38:05,192 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:38:05,193 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:38:05,193 - INFO - Total processing time: 7.67 seconds
+2025-05-17 00:41:42,840 - INFO - Starting document processing...
+2025-05-17 00:41:42,926 - INFO - Text extraction completed in 0.08 seconds
+2025-05-17 00:41:50,459 - INFO - Document parsing completed in 7.53 seconds
+2025-05-17 00:41:50,463 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:41:50,463 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:41:50,463 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:41:50,464 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:41:50,464 - INFO - Total processing time: 7.62 seconds
+2025-05-17 00:44:49,259 - INFO - Starting document processing...
+2025-05-17 00:44:49,370 - INFO - Text extraction completed in 0.11 seconds
+2025-05-17 00:44:56,093 - INFO - Document parsing completed in 6.72 seconds
+2025-05-17 00:44:56,098 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:44:56,098 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:44:56,099 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:44:56,099 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:44:56,100 - INFO - Total processing time: 6.84 seconds
+2025-05-17 00:46:19,727 - INFO - Starting document processing...
+2025-05-17 00:46:19,816 - INFO - Text extraction completed in 0.09 seconds
+2025-05-17 00:46:27,210 - INFO - Document parsing completed in 7.39 seconds
+2025-05-17 00:46:27,211 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-17 00:46:27,211 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-17 00:46:27,212 - INFO - Found link: None
+2025-05-17 00:46:27,212 - WARNING - No link found in social item
+2025-05-17 00:46:27,213 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-17 00:46:27,213 - INFO - Found link: None
+2025-05-17 00:46:27,213 - WARNING - No link found in social item
+2025-05-17 00:46:27,213 - INFO - Processed socials result: []
+2025-05-17 00:46:27,216 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:46:27,216 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:46:27,216 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:46:27,217 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:46:27,217 - INFO - Total processing time: 7.49 seconds
+2025-05-17 00:48:39,604 - INFO - Starting document processing...
+2025-05-17 00:48:39,697 - INFO - Text extraction completed in 0.09 seconds
+2025-05-17 00:48:46,403 - INFO - Document parsing completed in 6.71 seconds
+2025-05-17 00:48:46,404 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-17 00:48:46,405 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-17 00:48:46,405 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-17 00:48:46,406 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-17 00:48:46,406 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-17 00:48:46,407 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-17 00:48:46,407 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-17 00:48:46,408 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-17 00:48:46,408 - INFO - Found link: github.com/trungdong11
+2025-05-17 00:48:46,409 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-17 00:48:46,409 - INFO - Cleaned link: github.com/trungdong11
+2025-05-17 00:48:46,410 - INFO - Found matching icon: github for domain: github.com
+2025-05-17 00:48:46,410 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-17 00:48:46,410 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-17 00:48:46,414 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-17 00:48:46,414 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-17 00:48:46,415 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-17 00:48:46,415 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-17 00:48:46,416 - INFO - Total processing time: 6.81 seconds
