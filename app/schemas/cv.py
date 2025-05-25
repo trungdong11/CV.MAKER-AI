@@ -3,8 +3,8 @@ from typing import List, Optional
 from datetime import datetime
 
 class PersonalDetails(BaseModel):
-    fullname: str
-    phoneNumber: str
+    full_name: str
+    phone_number: str
     address: str
     email: EmailStr
 
@@ -15,11 +15,11 @@ class Social(BaseModel):
 class Education(BaseModel):
     degree: str
     school: str
-    startDate: datetime
-    endDate: datetime
-    schoolLink: Optional[HttpUrl] = None
+    start_date: datetime
+    end_date: datetime
+    school_link: Optional[HttpUrl] = None
     city: str
-    GPA: Optional[float] = None
+    gpa: Optional[float] = None
     description: Optional[str] = None
 
 class Language(BaseModel):
@@ -27,51 +27,51 @@ class Language(BaseModel):
     proficiency: str
 
 class SkillCategory(BaseModel):
-    skillCategory: str
-    listOfSkill: str
+    skill_category: str
+    list_of_skill: str
 
 class Work(BaseModel):
-    companyName: str
-    isCurrentWorking: bool
+    company_name: str
+    is_current_working: bool
     position: str
     location: str
-    startDate: datetime
-    endDate: Optional[datetime] = None
+    start_date: datetime
+    end_date: Optional[datetime] = None
     description: str
 
 class Project(BaseModel):
     name: str
     link: Optional[HttpUrl] = None
-    startDate: datetime
-    endDate: Optional[datetime] = None
-    isOngoing: bool
+    start_date: datetime
+    end_date: Optional[datetime] = None
+    is_ongoing: bool
     description: str
 
 class Certification(BaseModel):
-    certificationName: str
-    issuingOrganization: str
-    issuedDate: datetime
-    certificationLink: Optional[HttpUrl] = None
-    credentialId: Optional[str] = None
+    certification_name: str
+    issuing_organization: str
+    issued_date: datetime
+    certification_link: Optional[HttpUrl] = None
+    credential_id: Optional[str] = None
 
 class Organization(BaseModel):
     name: str
     position: str
     address: str
-    startDate: datetime
-    endDate: Optional[datetime] = None
+    start_date: datetime
+    end_date: Optional[datetime] = None
     description: str
 
 class Award(BaseModel):
-    awardTitle: str
-    awardTitleLink: Optional[HttpUrl] = None
-    issuer: str
-    issuedDate: datetime
+    award_title: str
+    award_title_link: Optional[HttpUrl] = None
+    issued_by: str
+    issued_date: datetime
     description: str
 
 class CV(BaseModel):
     summary: str
-    personalDetails: PersonalDetails
+    personal_details: PersonalDetails
     socials: List[Social]
     education: List[Education]
     languages: List[Language]

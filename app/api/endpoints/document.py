@@ -210,39 +210,39 @@ async def process_document(file: UploadFile = File(...)):
         # Process dates and ongoing status
         if result.get("education"):
             for edu in result["education"]:
-                edu["startDate"] = parse_date(edu["startDate"])
-                edu["endDate"], _ = process_date_and_ongoing(edu.get("endDate"))
+                edu["start_date"] = parse_date(edu["start_date"])
+                edu["end_date"], _ = process_date_and_ongoing(edu.get("end_date"))
                 if "description" in edu:
                     edu["description"] = convert_to_html(edu["description"])
                     
         if result.get("works"):
             for work in result["works"]:
-                work["startDate"] = parse_date(work["startDate"])
-                work["endDate"], work["isCurrentWorking"] = process_date_and_ongoing(work.get("endDate"))
+                work["start_date"] = parse_date(work["start_date"])
+                work["end_date"], work["is_current_working"] = process_date_and_ongoing(work.get("end_date"))
                 if "description" in work:
                     work["description"] = convert_to_html(work["description"])
                     
         if result.get("projects"):
             for project in result["projects"]:
-                project["startDate"] = parse_date(project["startDate"])
-                project["endDate"], project["isOngoing"] = process_date_and_ongoing(project.get("endDate"))
+                project["start_date"] = parse_date(project["start_date"])
+                project["end_date"], project["is_ongoing"] = process_date_and_ongoing(project.get("end_date"))
                 if "description" in project:
                     project["description"] = convert_to_html(project["description"])
                     
         if result.get("certification"):
             for cert in result["certification"]:
-                cert["issuedDate"] = parse_date(cert["issuedDate"])
+                cert["issued_date"] = parse_date(cert["issued_date"])
                 
         if result.get("organization"):
             for org in result["organization"]:
-                org["startDate"] = parse_date(org["startDate"])
-                org["endDate"], _ = process_date_and_ongoing(org.get("endDate"))
+                org["start_date"] = parse_date(org["start_date"])
+                org["end_date"], _ = process_date_and_ongoing(org.get("end_date"))
                 if "description" in org:
                     org["description"] = convert_to_html(org["description"])
                     
         if result.get("award"):
             for award in result["award"]:
-                award["issuedDate"] = parse_date(award["issuedDate"])
+                award["issued_date"] = parse_date(award["issued_date"])
                 if "description" in award:
                     award["description"] = convert_to_html(award["description"])
         

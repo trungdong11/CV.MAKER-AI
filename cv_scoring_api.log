@@ -17473,3 +17473,801 @@ violations {
 2025-05-17 00:48:46,415 - WARNING - Could not parse date: Sep 2024, using current date
 2025-05-17 00:48:46,415 - WARNING - Could not parse date: Jan 2024, using current date
 2025-05-17 00:48:46,416 - INFO - Total processing time: 6.81 seconds
+2025-05-20 13:13:41,033 - INFO - Starting CV processing...
+2025-05-20 13:13:41,047 - INFO - Text extraction completed in 0.01 seconds
+2025-05-20 13:13:47,054 - INFO - CV segmentation completed in 6.01 seconds
+2025-05-20 13:13:47,054 - INFO - Loading model and components
+2025-05-20 13:13:47,423 - INFO - Successfully loaded all models
+2025-05-20 13:13:47,423 - INFO - Models loaded in 0.37 seconds
+2025-05-20 13:13:47,431 - INFO - Feature extraction for Personal Info completed in 0.01 seconds
+2025-05-20 13:13:47,439 - INFO - Score prediction for Personal Info completed in 0.01 seconds
+2025-05-20 13:13:48,536 - INFO - Grammar check for Personal Info completed in 1.10 seconds
+2025-05-20 13:13:51,357 - INFO - Suggestions generation for Personal Info completed in 2.82 seconds
+2025-05-20 13:13:51,358 - INFO - Total processing time for Personal Info: 3.93 seconds
+2025-05-20 13:13:51,359 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-20 13:13:51,362 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-20 13:13:52,941 - INFO - Grammar check for Summary completed in 1.58 seconds
+2025-05-20 13:13:55,020 - INFO - Suggestions generation for Summary completed in 2.08 seconds
+2025-05-20 13:13:55,021 - INFO - Total processing time for Summary: 3.66 seconds
+2025-05-20 13:13:55,022 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-20 13:13:55,025 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-20 13:13:56,882 - INFO - Grammar check for Skills completed in 1.86 seconds
+2025-05-20 13:14:00,625 - INFO - Suggestions generation for Skills completed in 3.74 seconds
+2025-05-20 13:14:00,626 - INFO - Total processing time for Skills: 5.60 seconds
+2025-05-20 13:14:00,627 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-20 13:14:00,631 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-20 13:14:03,784 - INFO - Grammar check for Work Experience completed in 3.15 seconds
+2025-05-20 13:14:07,468 - INFO - Suggestions generation for Work Experience completed in 3.68 seconds
+2025-05-20 13:14:07,468 - INFO - Total processing time for Work Experience: 6.84 seconds
+2025-05-20 13:14:07,469 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-20 13:14:07,472 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-20 13:14:09,379 - INFO - Grammar check for Education completed in 1.91 seconds
+2025-05-20 13:14:11,989 - INFO - Suggestions generation for Education completed in 2.61 seconds
+2025-05-20 13:14:11,990 - INFO - Total processing time for Education: 4.52 seconds
+2025-05-20 13:14:11,991 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-20 13:14:11,996 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-20 13:14:14,704 - INFO - Grammar check for Projects completed in 2.71 seconds
+2025-05-20 13:14:18,519 - INFO - Suggestions generation for Projects completed in 3.82 seconds
+2025-05-20 13:14:18,520 - INFO - Total processing time for Projects: 6.53 seconds
+2025-05-20 13:14:18,521 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-20 13:14:18,524 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-20 13:14:20,554 - INFO - Grammar check for Certifications completed in 2.03 seconds
+2025-05-20 13:14:22,846 - INFO - Suggestions generation for Certifications completed in 2.29 seconds
+2025-05-20 13:14:22,846 - INFO - Total processing time for Certifications: 4.32 seconds
+2025-05-20 13:14:22,848 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-20 13:14:22,851 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-20 13:14:24,779 - INFO - Grammar check for Languages completed in 1.93 seconds
+2025-05-20 13:14:27,672 - INFO - Suggestions generation for Languages completed in 2.89 seconds
+2025-05-20 13:14:27,673 - INFO - Total processing time for Languages: 4.82 seconds
+2025-05-20 13:14:27,674 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 13:14:27,677 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 13:14:29,929 - INFO - Grammar check for Organizational & Volunteering completed in 2.25 seconds
+2025-05-20 13:14:32,889 - INFO - Suggestions generation for Organizational & Volunteering completed in 2.96 seconds
+2025-05-20 13:14:32,890 - INFO - Total processing time for Organizational & Volunteering: 5.21 seconds
+2025-05-20 13:14:32,893 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-20 13:14:32,899 - INFO - Score prediction for Awards completed in 0.01 seconds
+2025-05-20 13:14:33,815 - INFO - Grammar check for Awards completed in 0.91 seconds
+2025-05-20 13:14:36,609 - INFO - Suggestions generation for Awards completed in 2.79 seconds
+2025-05-20 13:14:36,609 - INFO - Total processing time for Awards: 3.72 seconds
+2025-05-20 13:14:36,610 - INFO - CV scoring completed in 49.56 seconds
+2025-05-20 13:14:36,610 - INFO - Total processing time: 55.58 seconds
+2025-05-20 20:06:31,711 - INFO - Starting CV processing...
+2025-05-20 20:06:31,719 - INFO - Text extraction completed in 0.01 seconds
+2025-05-20 20:06:36,412 - INFO - CV segmentation completed in 4.69 seconds
+2025-05-20 20:06:36,412 - INFO - Loading model and components
+2025-05-20 20:06:37,620 - INFO - Successfully loaded all models
+2025-05-20 20:06:37,620 - INFO - Models loaded in 1.21 seconds
+2025-05-20 20:06:37,623 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-20 20:06:37,630 - INFO - Score prediction for Personal Info completed in 0.01 seconds
+2025-05-20 20:06:39,076 - INFO - Grammar check for Personal Info completed in 1.45 seconds
+2025-05-20 20:06:42,013 - INFO - Suggestions generation for Personal Info completed in 2.94 seconds
+2025-05-20 20:06:42,013 - INFO - Total processing time for Personal Info: 4.39 seconds
+2025-05-20 20:06:42,016 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-20 20:06:42,019 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-20 20:06:43,634 - INFO - Grammar check for Summary completed in 1.61 seconds
+2025-05-20 20:06:47,880 - INFO - Suggestions generation for Summary completed in 4.25 seconds
+2025-05-20 20:06:47,881 - INFO - Total processing time for Summary: 5.87 seconds
+2025-05-20 20:06:47,883 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-20 20:06:47,886 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-20 20:06:49,475 - INFO - Grammar check for Skills completed in 1.59 seconds
+2025-05-20 20:06:52,175 - INFO - Suggestions generation for Skills completed in 2.70 seconds
+2025-05-20 20:06:52,175 - INFO - Total processing time for Skills: 4.29 seconds
+2025-05-20 20:06:52,178 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-20 20:06:52,182 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-20 20:06:54,053 - INFO - Grammar check for Work Experience completed in 1.87 seconds
+2025-05-20 20:06:57,692 - INFO - Suggestions generation for Work Experience completed in 3.64 seconds
+2025-05-20 20:06:57,692 - INFO - Total processing time for Work Experience: 5.51 seconds
+2025-05-20 20:06:57,694 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-20 20:06:57,698 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-20 20:06:59,695 - INFO - Grammar check for Education completed in 2.00 seconds
+2025-05-20 20:07:01,806 - INFO - Suggestions generation for Education completed in 2.11 seconds
+2025-05-20 20:07:01,806 - INFO - Total processing time for Education: 4.11 seconds
+2025-05-20 20:07:01,808 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-20 20:07:01,811 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-20 20:07:03,848 - INFO - Grammar check for Projects completed in 2.04 seconds
+2025-05-20 20:07:08,128 - INFO - Suggestions generation for Projects completed in 4.28 seconds
+2025-05-20 20:07:08,128 - INFO - Total processing time for Projects: 6.32 seconds
+2025-05-20 20:07:08,130 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-20 20:07:08,133 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-20 20:07:09,918 - INFO - Grammar check for Certifications completed in 1.79 seconds
+2025-05-20 20:07:13,432 - INFO - Suggestions generation for Certifications completed in 3.51 seconds
+2025-05-20 20:07:13,432 - INFO - Total processing time for Certifications: 5.30 seconds
+2025-05-20 20:07:13,433 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-20 20:07:13,436 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-20 20:07:15,058 - INFO - Grammar check for Languages completed in 1.62 seconds
+2025-05-20 20:07:26,864 - INFO - Suggestions generation for Languages completed in 11.81 seconds
+2025-05-20 20:07:26,864 - INFO - Total processing time for Languages: 13.43 seconds
+2025-05-20 20:07:26,866 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 20:07:26,869 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 20:07:29,304 - INFO - Grammar check for Organizational & Volunteering completed in 2.44 seconds
+2025-05-20 20:07:31,912 - INFO - Suggestions generation for Organizational & Volunteering completed in 2.61 seconds
+2025-05-20 20:07:31,913 - INFO - Total processing time for Organizational & Volunteering: 5.05 seconds
+2025-05-20 20:07:31,914 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-20 20:07:31,916 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-20 20:07:33,066 - INFO - Grammar check for Awards completed in 1.15 seconds
+2025-05-20 20:07:36,658 - INFO - Suggestions generation for Awards completed in 3.59 seconds
+2025-05-20 20:07:36,660 - INFO - Total processing time for Awards: 4.74 seconds
+2025-05-20 20:07:36,660 - INFO - CV scoring completed in 60.25 seconds
+2025-05-20 20:07:36,660 - INFO - Total processing time: 64.95 seconds
+2025-05-20 20:07:36,676 - INFO - Starting CV processing...
+2025-05-20 20:07:36,688 - INFO - Text extraction completed in 0.01 seconds
+2025-05-20 20:07:43,483 - INFO - CV segmentation completed in 6.79 seconds
+2025-05-20 20:07:43,484 - INFO - Loading model and components
+2025-05-20 20:07:43,484 - INFO - Models loaded in 0.00 seconds
+2025-05-20 20:07:43,486 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-20 20:07:43,489 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-20 20:07:44,952 - INFO - Grammar check for Personal Info completed in 1.46 seconds
+2025-05-20 20:07:48,091 - INFO - Suggestions generation for Personal Info completed in 3.14 seconds
+2025-05-20 20:07:48,092 - INFO - Total processing time for Personal Info: 4.60 seconds
+2025-05-20 20:07:48,093 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-20 20:07:48,096 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-20 20:07:49,299 - INFO - Grammar check for Summary completed in 1.20 seconds
+2025-05-20 20:07:52,385 - INFO - Suggestions generation for Summary completed in 3.08 seconds
+2025-05-20 20:07:52,385 - INFO - Total processing time for Summary: 4.29 seconds
+2025-05-20 20:07:52,387 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-20 20:07:52,389 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-20 20:07:53,881 - INFO - Grammar check for Skills completed in 1.49 seconds
+2025-05-20 20:07:57,520 - INFO - Suggestions generation for Skills completed in 3.64 seconds
+2025-05-20 20:07:57,521 - INFO - Total processing time for Skills: 5.13 seconds
+2025-05-20 20:07:57,522 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-20 20:07:57,525 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-20 20:08:03,167 - INFO - Grammar check for Work Experience completed in 5.64 seconds
+2025-05-20 20:08:14,746 - INFO - Suggestions generation for Work Experience completed in 11.58 seconds
+2025-05-20 20:08:14,747 - INFO - Total processing time for Work Experience: 17.23 seconds
+2025-05-20 20:08:14,748 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-20 20:08:14,751 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-20 20:08:19,207 - INFO - Grammar check for Education completed in 4.46 seconds
+2025-05-20 20:08:22,237 - INFO - Suggestions generation for Education completed in 3.03 seconds
+2025-05-20 20:08:22,238 - INFO - Total processing time for Education: 7.49 seconds
+2025-05-20 20:08:22,239 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-20 20:08:22,242 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-20 20:08:25,886 - INFO - Grammar check for Projects completed in 3.64 seconds
+2025-05-20 20:08:29,236 - INFO - Suggestions generation for Projects completed in 3.35 seconds
+2025-05-20 20:08:29,237 - INFO - Total processing time for Projects: 7.00 seconds
+2025-05-20 20:08:29,238 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-20 20:08:29,241 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-20 20:08:30,197 - INFO - Grammar check for Certifications completed in 0.96 seconds
+2025-05-20 20:08:32,508 - INFO - Suggestions generation for Certifications completed in 2.31 seconds
+2025-05-20 20:08:32,508 - INFO - Total processing time for Certifications: 3.27 seconds
+2025-05-20 20:08:32,510 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-20 20:08:32,514 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-20 20:08:34,180 - INFO - Grammar check for Languages completed in 1.67 seconds
+2025-05-20 20:08:36,829 - INFO - Suggestions generation for Languages completed in 2.65 seconds
+2025-05-20 20:08:36,829 - INFO - Total processing time for Languages: 4.32 seconds
+2025-05-20 20:08:36,830 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 20:08:36,834 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 20:08:39,323 - INFO - Grammar check for Organizational & Volunteering completed in 2.49 seconds
+2025-05-20 20:08:42,931 - INFO - Suggestions generation for Organizational & Volunteering completed in 3.61 seconds
+2025-05-20 20:08:42,931 - INFO - Total processing time for Organizational & Volunteering: 6.10 seconds
+2025-05-20 20:08:42,933 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-20 20:08:42,936 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-20 20:08:44,160 - INFO - Grammar check for Awards completed in 1.22 seconds
+2025-05-20 20:08:46,789 - INFO - Suggestions generation for Awards completed in 2.63 seconds
+2025-05-20 20:08:46,790 - INFO - Total processing time for Awards: 3.86 seconds
+2025-05-20 20:08:46,790 - INFO - CV scoring completed in 63.31 seconds
+2025-05-20 20:08:46,790 - INFO - Total processing time: 70.11 seconds
+2025-05-20 20:12:47,002 - INFO - Starting CV processing...
+2025-05-20 20:12:47,011 - INFO - Text extraction completed in 0.01 seconds
+2025-05-20 20:12:53,488 - INFO - CV segmentation completed in 6.48 seconds
+2025-05-20 20:12:53,488 - INFO - Loading model and components
+2025-05-20 20:12:53,488 - INFO - Models loaded in 0.00 seconds
+2025-05-20 20:12:53,490 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-20 20:12:53,494 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-20 20:12:55,781 - INFO - Grammar check for Personal Info completed in 2.29 seconds
+2025-05-20 20:12:59,117 - INFO - Suggestions generation for Personal Info completed in 3.34 seconds
+2025-05-20 20:12:59,117 - INFO - Total processing time for Personal Info: 5.63 seconds
+2025-05-20 20:12:59,119 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-20 20:12:59,122 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-20 20:13:01,072 - INFO - Grammar check for Summary completed in 1.95 seconds
+2025-05-20 20:13:04,598 - INFO - Suggestions generation for Summary completed in 3.53 seconds
+2025-05-20 20:13:04,598 - INFO - Total processing time for Summary: 5.48 seconds
+2025-05-20 20:13:04,600 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-20 20:13:04,603 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-20 20:13:06,445 - INFO - Grammar check for Skills completed in 1.84 seconds
+2025-05-20 20:13:09,260 - INFO - Suggestions generation for Skills completed in 2.81 seconds
+2025-05-20 20:13:09,260 - INFO - Total processing time for Skills: 4.66 seconds
+2025-05-20 20:13:09,262 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-20 20:13:09,265 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-20 20:13:14,208 - INFO - Grammar check for Work Experience completed in 4.94 seconds
+2025-05-20 20:13:17,823 - INFO - Suggestions generation for Work Experience completed in 3.61 seconds
+2025-05-20 20:13:17,823 - INFO - Total processing time for Work Experience: 8.56 seconds
+2025-05-20 20:13:17,825 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-20 20:13:17,828 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-20 20:13:19,390 - INFO - Grammar check for Education completed in 1.56 seconds
+2025-05-20 20:13:23,072 - INFO - Suggestions generation for Education completed in 3.68 seconds
+2025-05-20 20:13:23,073 - INFO - Total processing time for Education: 5.25 seconds
+2025-05-20 20:13:23,074 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-20 20:13:23,076 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-20 20:13:25,995 - INFO - Grammar check for Projects completed in 2.92 seconds
+2025-05-20 20:13:30,622 - INFO - Suggestions generation for Projects completed in 4.63 seconds
+2025-05-20 20:13:30,622 - INFO - Total processing time for Projects: 7.55 seconds
+2025-05-20 20:13:30,624 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-20 20:13:30,628 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-20 20:13:32,874 - INFO - Grammar check for Certifications completed in 2.24 seconds
+2025-05-20 20:13:35,886 - INFO - Suggestions generation for Certifications completed in 3.01 seconds
+2025-05-20 20:13:35,886 - INFO - Total processing time for Certifications: 5.26 seconds
+2025-05-20 20:13:35,888 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-20 20:13:35,891 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-20 20:13:36,945 - INFO - Grammar check for Languages completed in 1.05 seconds
+2025-05-20 20:13:40,808 - INFO - Suggestions generation for Languages completed in 3.86 seconds
+2025-05-20 20:13:40,808 - INFO - Total processing time for Languages: 4.92 seconds
+2025-05-20 20:13:40,810 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 20:13:40,812 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-20 20:13:43,103 - INFO - Grammar check for Organizational & Volunteering completed in 2.29 seconds
+2025-05-20 20:13:46,158 - INFO - Suggestions generation for Organizational & Volunteering completed in 3.06 seconds
+2025-05-20 20:13:46,159 - INFO - Total processing time for Organizational & Volunteering: 5.35 seconds
+2025-05-20 20:13:46,160 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-20 20:13:46,163 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-20 20:13:47,172 - INFO - Grammar check for Awards completed in 1.01 seconds
+2025-05-20 20:13:50,304 - INFO - Suggestions generation for Awards completed in 3.13 seconds
+2025-05-20 20:13:50,304 - INFO - Total processing time for Awards: 4.14 seconds
+2025-05-20 20:13:50,305 - INFO - CV scoring completed in 56.82 seconds
+2025-05-20 20:13:50,306 - INFO - Total processing time: 63.30 seconds
+2025-05-22 06:51:30,047 - INFO - Starting document processing...
+2025-05-22 06:51:30,177 - INFO - Text extraction completed in 0.13 seconds
+2025-05-22 06:51:37,207 - INFO - Document parsing completed in 7.03 seconds
+2025-05-22 06:51:37,209 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 06:51:37,209 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 06:51:37,209 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:51:37,210 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:51:37,210 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:51:37,210 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 06:51:37,211 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:51:37,211 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 06:51:37,211 - INFO - Found link: github.com/trungdong11
+2025-05-22 06:51:37,211 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 06:51:37,212 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 06:51:37,212 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 06:51:37,212 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 06:51:37,213 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 06:51:37,220 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 06:51:37,221 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 06:51:37,221 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 06:51:37,222 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 06:51:37,222 - INFO - Total processing time: 7.17 seconds
+2025-05-22 06:56:55,596 - INFO - Starting document processing...
+2025-05-22 06:56:55,678 - INFO - Text extraction completed in 0.08 seconds
+2025-05-22 06:57:02,429 - INFO - Document parsing completed in 6.75 seconds
+2025-05-22 06:57:02,429 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 06:57:02,429 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 06:57:02,430 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:57:02,430 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:57:02,430 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:57:02,431 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 06:57:02,431 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:57:02,431 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 06:57:02,431 - INFO - Found link: github.com/trungdong11
+2025-05-22 06:57:02,431 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 06:57:02,432 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 06:57:02,432 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 06:57:02,432 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 06:57:02,432 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 06:57:02,433 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 06:57:02,433 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 06:57:02,433 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 06:57:02,434 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 06:57:02,434 - INFO - Total processing time: 6.84 seconds
+2025-05-22 06:58:04,334 - INFO - Starting document processing...
+2025-05-22 06:58:04,438 - INFO - Text extraction completed in 0.10 seconds
+2025-05-22 06:58:11,793 - INFO - Document parsing completed in 7.35 seconds
+2025-05-22 06:58:11,794 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 06:58:11,795 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 06:58:11,795 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:58:11,795 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:58:11,796 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:58:11,797 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 06:58:11,797 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:58:11,797 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 06:58:11,798 - INFO - Found link: github.com/trungdong11
+2025-05-22 06:58:11,798 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 06:58:11,798 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 06:58:11,798 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 06:58:11,799 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 06:58:11,799 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 06:58:11,799 - ERROR - Error processing document: 'startDate'
+2025-05-22 06:59:11,138 - INFO - Starting document processing...
+2025-05-22 06:59:11,224 - INFO - Text extraction completed in 0.09 seconds
+2025-05-22 06:59:17,127 - INFO - Document parsing completed in 5.90 seconds
+2025-05-22 06:59:17,127 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 06:59:17,128 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 06:59:17,128 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:59:17,128 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:59:17,129 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:59:17,129 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 06:59:17,129 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 06:59:17,129 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 06:59:17,130 - INFO - Found link: github.com/trungdong11
+2025-05-22 06:59:17,130 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 06:59:17,130 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 06:59:17,130 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 06:59:17,131 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 06:59:17,131 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 06:59:17,131 - ERROR - Error processing document: 'startDate'
+2025-05-22 07:04:24,460 - INFO - Starting document processing...
+2025-05-22 07:04:24,549 - INFO - Text extraction completed in 0.09 seconds
+2025-05-22 07:04:31,924 - INFO - Document parsing completed in 7.37 seconds
+2025-05-22 07:04:31,924 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:04:31,925 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:04:31,925 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:04:31,926 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:04:31,926 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:04:31,926 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:04:31,927 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:04:31,927 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:04:31,927 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:04:31,928 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:04:31,928 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:04:31,928 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:04:31,928 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:04:31,929 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:04:31,932 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:04:31,932 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:04:31,932 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:04:31,933 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:04:31,934 - INFO - Total processing time: 7.47 seconds
+2025-05-22 07:10:24,659 - INFO - Starting document processing...
+2025-05-22 07:10:24,740 - INFO - Text extraction completed in 0.08 seconds
+2025-05-22 07:10:31,850 - INFO - Document parsing completed in 7.11 seconds
+2025-05-22 07:10:31,850 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:10:31,851 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:10:31,851 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:10:31,851 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:10:31,851 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:10:31,852 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:10:31,852 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:10:31,852 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:10:31,852 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:10:31,852 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:10:31,853 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:10:31,853 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:10:31,853 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:10:31,854 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:10:31,856 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:10:31,857 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:10:31,857 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:10:31,858 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:10:31,858 - INFO - Total processing time: 7.20 seconds
+2025-05-22 07:11:00,440 - INFO - Starting document processing...
+2025-05-22 07:11:00,566 - INFO - Text extraction completed in 0.12 seconds
+2025-05-22 07:11:06,499 - INFO - Document parsing completed in 5.93 seconds
+2025-05-22 07:11:06,499 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:11:06,499 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:11:06,500 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:11:06,500 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:11:06,501 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:11:06,501 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:11:06,502 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:11:06,502 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:11:06,502 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:11:06,503 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:11:06,503 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:11:06,504 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:11:06,504 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:11:06,505 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:11:06,505 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:11:06,506 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:11:06,506 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:11:06,507 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:11:06,507 - INFO - Total processing time: 6.07 seconds
+2025-05-22 07:19:17,535 - INFO - Starting document processing...
+2025-05-22 07:19:17,791 - INFO - Text extraction completed in 0.26 seconds
+2025-05-22 07:19:24,836 - INFO - Document parsing completed in 7.05 seconds
+2025-05-22 07:19:24,836 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:19:24,837 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:19:24,837 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:19:24,838 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:19:24,838 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:19:24,838 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:19:24,838 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:19:24,839 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:19:24,839 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:19:24,839 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:19:24,840 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:19:24,840 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:19:24,840 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:19:24,840 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:19:24,841 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:19:24,841 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:19:24,841 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:19:24,842 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:19:24,842 - INFO - Total processing time: 7.31 seconds
+2025-05-22 07:23:19,845 - INFO - Starting document processing...
+2025-05-22 07:23:19,966 - INFO - Text extraction completed in 0.12 seconds
+2025-05-22 07:23:26,191 - INFO - Document parsing completed in 6.23 seconds
+2025-05-22 07:23:26,191 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:23:26,192 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:23:26,192 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:23:26,192 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:23:26,193 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:23:26,193 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:23:26,193 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:23:26,194 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:23:26,194 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:23:26,194 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:23:26,194 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:23:26,195 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:23:26,195 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:23:26,195 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:23:26,196 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:23:26,196 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:23:26,197 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:23:26,198 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:23:26,198 - INFO - Total processing time: 6.35 seconds
+2025-05-22 07:26:14,847 - INFO - Starting document processing...
+2025-05-22 07:26:14,935 - INFO - Text extraction completed in 0.09 seconds
+2025-05-22 07:26:20,770 - INFO - Document parsing completed in 5.83 seconds
+2025-05-22 07:26:20,771 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:26:20,771 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:26:20,772 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:26:20,772 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:26:20,772 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:26:20,772 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:26:20,773 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:26:20,773 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:26:20,773 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:26:20,774 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:26:20,774 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:26:20,774 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:26:20,774 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:26:20,774 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:26:20,775 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:26:20,775 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:26:20,775 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:26:20,776 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:26:20,776 - INFO - Total processing time: 5.93 seconds
+2025-05-22 07:27:42,820 - INFO - Starting document processing...
+2025-05-22 07:27:42,896 - INFO - Text extraction completed in 0.08 seconds
+2025-05-22 07:27:48,747 - INFO - Document parsing completed in 5.85 seconds
+2025-05-22 07:27:48,747 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:27:48,747 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:27:48,748 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:27:48,748 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:27:48,748 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:27:48,748 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:27:48,749 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:27:48,749 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:27:48,749 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:27:48,749 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:27:48,749 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:27:48,750 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:27:48,750 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:27:48,750 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:27:48,751 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:27:48,751 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:27:48,752 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:27:48,752 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:27:48,752 - INFO - Total processing time: 5.93 seconds
+2025-05-22 07:30:50,757 - INFO - Starting document processing...
+2025-05-22 07:30:50,766 - INFO - Text extraction completed in 0.01 seconds
+2025-05-22 07:30:58,279 - INFO - Document parsing completed in 7.51 seconds
+2025-05-22 07:30:58,280 - INFO - Processing socials: [{'icon': 'linkedin.com', 'link': 'https://linkedin.com/in/johndoe'}, {'icon': 'github.com', 'link': 'https://github.com/johndoe'}]
+2025-05-22 07:30:58,280 - INFO - Processing social item: {'icon': 'linkedin.com', 'link': 'https://linkedin.com/in/johndoe'}
+2025-05-22 07:30:58,280 - INFO - Found link: https://linkedin.com/in/johndoe
+2025-05-22 07:30:58,281 - INFO - Getting social info for link: https://linkedin.com/in/johndoe
+2025-05-22 07:30:58,281 - INFO - Cleaned link: linkedin.com/in/johndoe
+2025-05-22 07:30:58,281 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:30:58,282 - INFO - Extracted icon: linkedin for link: https://linkedin.com/in/johndoe
+2025-05-22 07:30:58,282 - INFO - Processing social item: {'icon': 'github.com', 'link': 'https://github.com/johndoe'}
+2025-05-22 07:30:58,282 - INFO - Found link: https://github.com/johndoe
+2025-05-22 07:30:58,283 - INFO - Getting social info for link: https://github.com/johndoe
+2025-05-22 07:30:58,283 - INFO - Cleaned link: github.com/johndoe
+2025-05-22 07:30:58,283 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:30:58,283 - INFO - Extracted icon: github for link: https://github.com/johndoe
+2025-05-22 07:30:58,284 - INFO - Processed socials result: [Social(icon='linkedin', link='https://linkedin.com/in/johndoe'), Social(icon='github', link='https://github.com/johndoe')]
+2025-05-22 07:30:58,284 - WARNING - Could not parse date: Sep 2013, using current date
+2025-05-22 07:30:58,284 - WARNING - Could not parse date: Jun 2017, using current date
+2025-05-22 07:30:58,284 - WARNING - Could not parse date: Jan 2020, using current date
+2025-05-22 07:30:58,285 - WARNING - Could not parse date: Jul 2017, using current date
+2025-05-22 07:30:58,285 - WARNING - Could not parse date: Dec 2019, using current date
+2025-05-22 07:30:58,286 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:30:58,286 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:30:58,286 - WARNING - Could not parse date: Mar 2022, using current date
+2025-05-22 07:30:58,287 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:30:58,287 - WARNING - Could not parse date: Dec 2023, using current date
+2025-05-22 07:30:58,287 - ERROR - Error parsing date None: 'NoneType' object has no attribute 'strip'
+2025-05-22 07:30:58,287 - WARNING - Could not parse date: Dec 2022, using current date
+2025-05-22 07:30:58,288 - INFO - Total processing time: 7.53 seconds
+2025-05-22 07:32:31,514 - INFO - Starting document processing...
+2025-05-22 07:32:31,697 - INFO - Text extraction completed in 0.18 seconds
+2025-05-22 07:32:38,565 - INFO - Document parsing completed in 6.87 seconds
+2025-05-22 07:32:38,565 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-22 07:32:38,565 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-22 07:32:38,566 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:32:38,566 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:32:38,566 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:32:38,567 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:32:38,567 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-22 07:32:38,567 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-22 07:32:38,568 - INFO - Found link: github.com/trungdong11
+2025-05-22 07:32:38,568 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-22 07:32:38,568 - INFO - Cleaned link: github.com/trungdong11
+2025-05-22 07:32:38,568 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:32:38,569 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-22 07:32:38,569 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-22 07:32:38,569 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:32:38,569 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-22 07:32:38,570 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:32:38,570 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:32:38,570 - INFO - Total processing time: 7.06 seconds
+2025-05-22 07:32:48,303 - INFO - Starting document processing...
+2025-05-22 07:32:48,309 - INFO - Text extraction completed in 0.01 seconds
+2025-05-22 07:32:53,381 - INFO - Document parsing completed in 5.07 seconds
+2025-05-22 07:32:53,382 - INFO - Processing socials: [{'icon': 'linkedin.com', 'link': 'https://linkedin.com/in/johndoe'}, {'icon': 'github.com', 'link': 'https://github.com/johndoe'}]
+2025-05-22 07:32:53,382 - INFO - Processing social item: {'icon': 'linkedin.com', 'link': 'https://linkedin.com/in/johndoe'}
+2025-05-22 07:32:53,382 - INFO - Found link: https://linkedin.com/in/johndoe
+2025-05-22 07:32:53,383 - INFO - Getting social info for link: https://linkedin.com/in/johndoe
+2025-05-22 07:32:53,383 - INFO - Cleaned link: linkedin.com/in/johndoe
+2025-05-22 07:32:53,383 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:32:53,383 - INFO - Extracted icon: linkedin for link: https://linkedin.com/in/johndoe
+2025-05-22 07:32:53,383 - INFO - Processing social item: {'icon': 'github.com', 'link': 'https://github.com/johndoe'}
+2025-05-22 07:32:53,384 - INFO - Found link: https://github.com/johndoe
+2025-05-22 07:32:53,384 - INFO - Getting social info for link: https://github.com/johndoe
+2025-05-22 07:32:53,384 - INFO - Cleaned link: github.com/johndoe
+2025-05-22 07:32:53,384 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:32:53,384 - INFO - Extracted icon: github for link: https://github.com/johndoe
+2025-05-22 07:32:53,385 - INFO - Processed socials result: [Social(icon='linkedin', link='https://linkedin.com/in/johndoe'), Social(icon='github', link='https://github.com/johndoe')]
+2025-05-22 07:32:53,385 - WARNING - Could not parse date: Sep 2013, using current date
+2025-05-22 07:32:53,385 - WARNING - Could not parse date: Jun 2017, using current date
+2025-05-22 07:32:53,385 - WARNING - Could not parse date: Jan 2020, using current date
+2025-05-22 07:32:53,386 - WARNING - Could not parse date: Jan 2022, using current date
+2025-05-22 07:32:53,386 - WARNING - Could not parse date: Jun 2022, using current date
+2025-05-22 07:32:53,386 - WARNING - Could not parse date: Jan 2023, using current date
+2025-05-22 07:32:53,386 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:32:53,387 - WARNING - Could not parse date: Dec 2023, using current date
+2025-05-22 07:32:53,387 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:32:53,387 - WARNING - Could not parse date: Dec 2023, using current date
+2025-05-22 07:32:53,387 - WARNING - Could not parse date: Jan 2023, using current date
+2025-05-22 07:32:53,388 - INFO - Total processing time: 5.08 seconds
+2025-05-22 07:43:45,246 - INFO - Starting document processing...
+2025-05-22 07:43:45,255 - INFO - Text extraction completed in 0.01 seconds
+2025-05-22 07:43:52,896 - INFO - Document parsing completed in 7.64 seconds
+2025-05-22 07:43:52,897 - INFO - Processing socials: [{'icon': 'linkedin.com/in/johndoe', 'link': 'https://linkedin.com/in/johndoe'}, {'icon': 'github.com/johndoe', 'link': 'https://github.com/johndoe'}]
+2025-05-22 07:43:52,897 - INFO - Processing social item: {'icon': 'linkedin.com/in/johndoe', 'link': 'https://linkedin.com/in/johndoe'}
+2025-05-22 07:43:52,898 - INFO - Found link: https://linkedin.com/in/johndoe
+2025-05-22 07:43:52,898 - INFO - Getting social info for link: https://linkedin.com/in/johndoe
+2025-05-22 07:43:52,898 - INFO - Cleaned link: linkedin.com/in/johndoe
+2025-05-22 07:43:52,898 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:43:52,899 - INFO - Extracted icon: linkedin for link: https://linkedin.com/in/johndoe
+2025-05-22 07:43:52,899 - INFO - Processing social item: {'icon': 'github.com/johndoe', 'link': 'https://github.com/johndoe'}
+2025-05-22 07:43:52,899 - INFO - Found link: https://github.com/johndoe
+2025-05-22 07:43:52,899 - INFO - Getting social info for link: https://github.com/johndoe
+2025-05-22 07:43:52,899 - INFO - Cleaned link: github.com/johndoe
+2025-05-22 07:43:52,900 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:43:52,900 - INFO - Extracted icon: github for link: https://github.com/johndoe
+2025-05-22 07:43:52,900 - INFO - Processed socials result: [Social(icon='linkedin', link='https://linkedin.com/in/johndoe'), Social(icon='github', link='https://github.com/johndoe')]
+2025-05-22 07:43:52,905 - WARNING - Could not parse date: Sep 2013, using current date
+2025-05-22 07:43:52,905 - WARNING - Could not parse date: Jun 2017, using current date
+2025-05-22 07:43:52,906 - WARNING - Could not parse date: Jan 2020, using current date
+2025-05-22 07:43:52,906 - WARNING - Could not parse date: Jul 2017, using current date
+2025-05-22 07:43:52,906 - WARNING - Could not parse date: Dec 2019, using current date
+2025-05-22 07:43:52,907 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:43:52,907 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:43:52,908 - WARNING - Could not parse date: Mar 2022, using current date
+2025-05-22 07:43:52,908 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:43:52,909 - WARNING - Could not parse date: Dec 2023, using current date
+2025-05-22 07:43:52,909 - WARNING - Could not parse date: Dec 2022, using current date
+2025-05-22 07:43:52,910 - INFO - Total processing time: 7.66 seconds
+2025-05-22 07:44:06,651 - INFO - Starting document processing...
+2025-05-22 07:44:06,660 - INFO - Text extraction completed in 0.01 seconds
+2025-05-22 07:44:14,052 - INFO - Document parsing completed in 7.39 seconds
+2025-05-22 07:44:14,052 - INFO - Processing socials: [{'icon': 'linkedin.com/in/johndoe', 'link': 'https://linkedin.com/in/johndoe'}, {'icon': 'github.com/johndoe', 'link': 'https://github.com/johndoe'}]
+2025-05-22 07:44:14,052 - INFO - Processing social item: {'icon': 'linkedin.com/in/johndoe', 'link': 'https://linkedin.com/in/johndoe'}
+2025-05-22 07:44:14,052 - INFO - Found link: https://linkedin.com/in/johndoe
+2025-05-22 07:44:14,053 - INFO - Getting social info for link: https://linkedin.com/in/johndoe
+2025-05-22 07:44:14,053 - INFO - Cleaned link: linkedin.com/in/johndoe
+2025-05-22 07:44:14,053 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-22 07:44:14,053 - INFO - Extracted icon: linkedin for link: https://linkedin.com/in/johndoe
+2025-05-22 07:44:14,053 - INFO - Processing social item: {'icon': 'github.com/johndoe', 'link': 'https://github.com/johndoe'}
+2025-05-22 07:44:14,053 - INFO - Found link: https://github.com/johndoe
+2025-05-22 07:44:14,054 - INFO - Getting social info for link: https://github.com/johndoe
+2025-05-22 07:44:14,054 - INFO - Cleaned link: github.com/johndoe
+2025-05-22 07:44:14,054 - INFO - Found matching icon: github for domain: github.com
+2025-05-22 07:44:14,054 - INFO - Extracted icon: github for link: https://github.com/johndoe
+2025-05-22 07:44:14,054 - INFO - Processed socials result: [Social(icon='linkedin', link='https://linkedin.com/in/johndoe'), Social(icon='github', link='https://github.com/johndoe')]
+2025-05-22 07:44:14,055 - WARNING - Could not parse date: Sep 2013, using current date
+2025-05-22 07:44:14,055 - WARNING - Could not parse date: Jun 2017, using current date
+2025-05-22 07:44:14,055 - WARNING - Could not parse date: Jan 2020, using current date
+2025-05-22 07:44:14,055 - WARNING - Could not parse date: Jul 2017, using current date
+2025-05-22 07:44:14,055 - WARNING - Could not parse date: Dec 2019, using current date
+2025-05-22 07:44:14,056 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-22 07:44:14,056 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-22 07:44:14,056 - WARNING - Could not parse date: Mar 2022, using current date
+2025-05-22 07:44:14,056 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-22 07:44:14,056 - WARNING - Could not parse date: Dec 2023, using current date
+2025-05-22 07:44:14,057 - WARNING - Could not parse date: Dec 2022, using current date
+2025-05-22 07:44:14,057 - INFO - Total processing time: 7.41 seconds
+2025-05-22 12:45:45,297 - INFO - Starting CV processing...
+2025-05-22 12:45:45,305 - INFO - Text extraction completed in 0.01 seconds
+2025-05-22 12:45:49,979 - INFO - CV segmentation completed in 4.67 seconds
+2025-05-22 12:45:49,979 - INFO - Loading model and components
+2025-05-22 12:45:50,367 - INFO - Successfully loaded all models
+2025-05-22 12:45:50,368 - INFO - Models loaded in 0.39 seconds
+2025-05-22 12:45:50,375 - INFO - Feature extraction for Personal Info completed in 0.01 seconds
+2025-05-22 12:45:50,382 - INFO - Score prediction for Personal Info completed in 0.01 seconds
+2025-05-22 12:45:51,984 - INFO - Grammar check for Personal Info completed in 1.60 seconds
+2025-05-22 12:45:54,783 - INFO - Suggestions generation for Personal Info completed in 2.80 seconds
+2025-05-22 12:45:54,783 - INFO - Total processing time for Personal Info: 4.41 seconds
+2025-05-22 12:45:54,785 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-22 12:45:54,788 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-22 12:45:56,570 - INFO - Grammar check for Summary completed in 1.78 seconds
+2025-05-22 12:46:00,046 - INFO - Suggestions generation for Summary completed in 3.48 seconds
+2025-05-22 12:46:00,046 - INFO - Total processing time for Summary: 5.26 seconds
+2025-05-22 12:46:00,048 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-22 12:46:00,051 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-22 12:46:01,031 - INFO - Grammar check for Skills completed in 0.98 seconds
+2025-05-22 12:46:04,177 - INFO - Suggestions generation for Skills completed in 3.15 seconds
+2025-05-22 12:46:04,177 - INFO - Total processing time for Skills: 4.13 seconds
+2025-05-22 12:46:04,178 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-22 12:46:04,182 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-22 12:46:05,413 - INFO - Grammar check for Work Experience completed in 1.23 seconds
+2025-05-22 12:46:08,358 - INFO - Suggestions generation for Work Experience completed in 2.95 seconds
+2025-05-22 12:46:08,358 - INFO - Total processing time for Work Experience: 4.18 seconds
+2025-05-22 12:46:08,360 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-22 12:46:08,363 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-22 12:46:09,748 - INFO - Grammar check for Education completed in 1.38 seconds
+2025-05-22 12:46:12,285 - INFO - Suggestions generation for Education completed in 2.54 seconds
+2025-05-22 12:46:12,285 - INFO - Total processing time for Education: 3.92 seconds
+2025-05-22 12:46:12,287 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-22 12:46:12,289 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-22 12:46:14,172 - INFO - Grammar check for Projects completed in 1.88 seconds
+2025-05-22 12:46:17,032 - INFO - Suggestions generation for Projects completed in 2.86 seconds
+2025-05-22 12:46:17,032 - INFO - Total processing time for Projects: 4.74 seconds
+2025-05-22 12:46:17,034 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-22 12:46:17,037 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-22 12:46:19,820 - INFO - Grammar check for Certifications completed in 2.78 seconds
+2025-05-22 12:46:22,313 - INFO - Suggestions generation for Certifications completed in 2.49 seconds
+2025-05-22 12:46:22,313 - INFO - Total processing time for Certifications: 5.28 seconds
+2025-05-22 12:46:22,315 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-22 12:46:22,318 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-22 12:46:23,612 - INFO - Grammar check for Languages completed in 1.29 seconds
+2025-05-22 12:46:26,197 - INFO - Suggestions generation for Languages completed in 2.58 seconds
+2025-05-22 12:46:26,197 - INFO - Total processing time for Languages: 3.88 seconds
+2025-05-22 12:46:26,198 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-22 12:46:26,201 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-22 12:46:28,172 - INFO - Grammar check for Organizational & Volunteering completed in 1.97 seconds
+2025-05-22 12:46:30,490 - INFO - Suggestions generation for Organizational & Volunteering completed in 2.32 seconds
+2025-05-22 12:46:30,490 - INFO - Total processing time for Organizational & Volunteering: 4.29 seconds
+2025-05-22 12:46:30,492 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-22 12:46:30,494 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-22 12:46:31,482 - INFO - Grammar check for Awards completed in 0.99 seconds
+2025-05-22 12:46:34,302 - INFO - Suggestions generation for Awards completed in 2.82 seconds
+2025-05-22 12:46:34,303 - INFO - Total processing time for Awards: 3.81 seconds
+2025-05-22 12:46:34,303 - INFO - CV scoring completed in 44.32 seconds
+2025-05-22 12:46:34,304 - INFO - Total processing time: 49.01 seconds
+2025-05-23 08:19:52,602 - INFO - Starting CV processing...
+2025-05-23 08:19:52,720 - INFO - Text extraction completed in 0.12 seconds
+2025-05-23 08:19:58,357 - INFO - CV segmentation completed in 5.64 seconds
+2025-05-23 08:19:58,357 - INFO - Loading model and components
+2025-05-23 08:19:59,541 - INFO - Successfully loaded all models
+2025-05-23 08:19:59,542 - INFO - Models loaded in 1.18 seconds
+2025-05-23 08:19:59,543 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-23 08:19:59,550 - INFO - Score prediction for Personal Info completed in 0.01 seconds
+2025-05-23 08:20:01,163 - INFO - Grammar check for Personal Info completed in 1.61 seconds
+2025-05-23 08:20:04,416 - INFO - Suggestions generation for Personal Info completed in 3.25 seconds
+2025-05-23 08:20:04,416 - INFO - Total processing time for Personal Info: 4.87 seconds
+2025-05-23 08:20:04,418 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-23 08:20:04,420 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-23 08:20:06,020 - INFO - Grammar check for Summary completed in 1.60 seconds
+2025-05-23 08:20:08,759 - INFO - Suggestions generation for Summary completed in 2.74 seconds
+2025-05-23 08:20:08,760 - INFO - Total processing time for Summary: 4.34 seconds
+2025-05-23 08:20:08,761 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-23 08:20:08,764 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-23 08:20:11,083 - INFO - Grammar check for Skills completed in 2.32 seconds
+2025-05-23 08:20:14,796 - INFO - Suggestions generation for Skills completed in 3.71 seconds
+2025-05-23 08:20:14,797 - INFO - Total processing time for Skills: 6.03 seconds
+2025-05-23 08:20:14,798 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-23 08:20:14,803 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-23 08:20:16,554 - INFO - Grammar check for Work Experience completed in 1.75 seconds
+2025-05-23 08:20:19,637 - INFO - Suggestions generation for Work Experience completed in 3.08 seconds
+2025-05-23 08:20:19,637 - INFO - Total processing time for Work Experience: 4.84 seconds
+2025-05-23 08:20:19,639 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-23 08:20:19,642 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-23 08:20:20,793 - INFO - Grammar check for Education completed in 1.15 seconds
+2025-05-23 08:20:23,772 - INFO - Suggestions generation for Education completed in 2.98 seconds
+2025-05-23 08:20:23,773 - INFO - Total processing time for Education: 4.13 seconds
+2025-05-23 08:20:23,775 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-23 08:20:23,778 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-23 08:20:27,606 - INFO - Grammar check for Projects completed in 3.83 seconds
+2025-05-23 08:20:31,160 - INFO - Suggestions generation for Projects completed in 3.55 seconds
+2025-05-23 08:20:31,160 - INFO - Total processing time for Projects: 7.39 seconds
+2025-05-23 08:20:31,162 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-23 08:20:31,165 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-23 08:20:31,165 - INFO - Grammar check for Certifications completed in 0.00 seconds
+2025-05-23 08:20:31,165 - INFO - Suggestions generation for Certifications completed in 0.00 seconds
+2025-05-23 08:20:31,166 - INFO - Total processing time for Certifications: 0.00 seconds
+2025-05-23 08:20:31,168 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-23 08:20:31,173 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-23 08:20:31,173 - INFO - Grammar check for Languages completed in 0.00 seconds
+2025-05-23 08:20:31,173 - INFO - Suggestions generation for Languages completed in 0.00 seconds
+2025-05-23 08:20:31,174 - INFO - Total processing time for Languages: 0.01 seconds
+2025-05-23 08:20:31,176 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-23 08:20:31,181 - INFO - Score prediction for Organizational & Volunteering completed in 0.01 seconds
+2025-05-23 08:20:31,181 - INFO - Grammar check for Organizational & Volunteering completed in 0.00 seconds
+2025-05-23 08:20:31,181 - INFO - Suggestions generation for Organizational & Volunteering completed in 0.00 seconds
+2025-05-23 08:20:31,182 - INFO - Total processing time for Organizational & Volunteering: 0.01 seconds
+2025-05-23 08:20:31,184 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-23 08:20:31,189 - INFO - Score prediction for Awards completed in 0.01 seconds
+2025-05-23 08:20:31,189 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-23 08:20:31,190 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-23 08:20:31,190 - INFO - Total processing time for Awards: 0.01 seconds
+2025-05-23 08:20:31,191 - INFO - CV scoring completed in 32.83 seconds
+2025-05-23 08:20:31,191 - INFO - Total processing time: 38.59 seconds
+2025-05-23 08:28:26,870 - INFO - Starting CV processing...
+2025-05-23 08:28:26,950 - INFO - Text extraction completed in 0.08 seconds
+2025-05-23 08:28:33,938 - INFO - CV segmentation completed in 6.99 seconds
+2025-05-23 08:28:33,938 - INFO - Loading model and components
+2025-05-23 08:28:33,939 - INFO - Models loaded in 0.00 seconds
+2025-05-23 08:28:33,941 - INFO - Feature extraction for Personal Info completed in 0.00 seconds
+2025-05-23 08:28:33,946 - INFO - Score prediction for Personal Info completed in 0.00 seconds
+2025-05-23 08:28:35,645 - INFO - Grammar check for Personal Info completed in 1.70 seconds
+2025-05-23 08:28:38,377 - INFO - Suggestions generation for Personal Info completed in 2.73 seconds
+2025-05-23 08:28:38,378 - INFO - Total processing time for Personal Info: 4.44 seconds
+2025-05-23 08:28:38,379 - INFO - Feature extraction for Summary completed in 0.00 seconds
+2025-05-23 08:28:38,382 - INFO - Score prediction for Summary completed in 0.00 seconds
+2025-05-23 08:28:42,430 - INFO - Grammar check for Summary completed in 4.05 seconds
+2025-05-23 08:28:46,161 - INFO - Suggestions generation for Summary completed in 3.73 seconds
+2025-05-23 08:28:46,162 - INFO - Total processing time for Summary: 7.78 seconds
+2025-05-23 08:28:46,163 - INFO - Feature extraction for Skills completed in 0.00 seconds
+2025-05-23 08:28:46,166 - INFO - Score prediction for Skills completed in 0.00 seconds
+2025-05-23 08:28:48,628 - INFO - Grammar check for Skills completed in 2.46 seconds
+2025-05-23 08:28:52,359 - INFO - Suggestions generation for Skills completed in 3.73 seconds
+2025-05-23 08:28:52,360 - INFO - Total processing time for Skills: 6.20 seconds
+2025-05-23 08:28:52,362 - INFO - Feature extraction for Work Experience completed in 0.00 seconds
+2025-05-23 08:28:52,364 - INFO - Score prediction for Work Experience completed in 0.00 seconds
+2025-05-23 08:28:56,843 - INFO - Grammar check for Work Experience completed in 4.48 seconds
+2025-05-23 08:29:00,042 - INFO - Suggestions generation for Work Experience completed in 3.20 seconds
+2025-05-23 08:29:00,043 - INFO - Total processing time for Work Experience: 7.68 seconds
+2025-05-23 08:29:00,044 - INFO - Feature extraction for Education completed in 0.00 seconds
+2025-05-23 08:29:00,047 - INFO - Score prediction for Education completed in 0.00 seconds
+2025-05-23 08:29:01,588 - INFO - Grammar check for Education completed in 1.54 seconds
+2025-05-23 08:29:03,892 - INFO - Suggestions generation for Education completed in 2.30 seconds
+2025-05-23 08:29:03,892 - INFO - Total processing time for Education: 3.85 seconds
+2025-05-23 08:29:03,894 - INFO - Feature extraction for Projects completed in 0.00 seconds
+2025-05-23 08:29:03,898 - INFO - Score prediction for Projects completed in 0.00 seconds
+2025-05-23 08:29:03,898 - INFO - Grammar check for Projects completed in 0.00 seconds
+2025-05-23 08:29:03,899 - INFO - Suggestions generation for Projects completed in 0.00 seconds
+2025-05-23 08:29:03,899 - INFO - Total processing time for Projects: 0.01 seconds
+2025-05-23 08:29:03,901 - INFO - Feature extraction for Certifications completed in 0.00 seconds
+2025-05-23 08:29:03,906 - INFO - Score prediction for Certifications completed in 0.00 seconds
+2025-05-23 08:29:06,401 - INFO - Grammar check for Certifications completed in 2.50 seconds
+2025-05-23 08:29:09,003 - INFO - Suggestions generation for Certifications completed in 2.60 seconds
+2025-05-23 08:29:09,004 - INFO - Total processing time for Certifications: 5.10 seconds
+2025-05-23 08:29:09,005 - INFO - Feature extraction for Languages completed in 0.00 seconds
+2025-05-23 08:29:09,008 - INFO - Score prediction for Languages completed in 0.00 seconds
+2025-05-23 08:29:09,008 - INFO - Grammar check for Languages completed in 0.00 seconds
+2025-05-23 08:29:09,009 - INFO - Suggestions generation for Languages completed in 0.00 seconds
+2025-05-23 08:29:09,009 - INFO - Total processing time for Languages: 0.00 seconds
+2025-05-23 08:29:09,011 - INFO - Feature extraction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-23 08:29:09,016 - INFO - Score prediction for Organizational & Volunteering completed in 0.00 seconds
+2025-05-23 08:29:09,819 - INFO - Grammar check for Organizational & Volunteering completed in 0.80 seconds
+2025-05-23 08:29:13,442 - INFO - Suggestions generation for Organizational & Volunteering completed in 3.62 seconds
+2025-05-23 08:29:13,443 - INFO - Total processing time for Organizational & Volunteering: 4.43 seconds
+2025-05-23 08:29:13,444 - INFO - Feature extraction for Awards completed in 0.00 seconds
+2025-05-23 08:29:13,447 - INFO - Score prediction for Awards completed in 0.00 seconds
+2025-05-23 08:29:13,448 - INFO - Grammar check for Awards completed in 0.00 seconds
+2025-05-23 08:29:13,448 - INFO - Suggestions generation for Awards completed in 0.00 seconds
+2025-05-23 08:29:13,448 - INFO - Total processing time for Awards: 0.00 seconds
+2025-05-23 08:29:13,449 - INFO - CV scoring completed in 39.51 seconds
+2025-05-23 08:29:13,449 - INFO - Total processing time: 46.58 seconds
+2025-05-23 09:13:08,499 - INFO - Starting document processing...
+2025-05-23 09:13:08,582 - INFO - Text extraction completed in 0.08 seconds
+2025-05-23 09:13:16,241 - INFO - Document parsing completed in 7.66 seconds
+2025-05-23 09:13:16,243 - INFO - Processing socials: [{'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}, {'icon': 'github.com/trungdong11', 'link': None}]
+2025-05-23 09:13:16,243 - INFO - Processing social item: {'icon': 'linkedin.com/in/trung-dong-le-6a66ba291', 'link': None}
+2025-05-23 09:13:16,244 - INFO - Found link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-23 09:13:16,244 - INFO - Getting social info for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-23 09:13:16,244 - INFO - Cleaned link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-23 09:13:16,245 - INFO - Found matching icon: linkedin for domain: linkedin.com
+2025-05-23 09:13:16,245 - INFO - Extracted icon: linkedin for link: linkedin.com/in/trung-dong-le-6a66ba291
+2025-05-23 09:13:16,246 - INFO - Processing social item: {'icon': 'github.com/trungdong11', 'link': None}
+2025-05-23 09:13:16,246 - INFO - Found link: github.com/trungdong11
+2025-05-23 09:13:16,246 - INFO - Getting social info for link: github.com/trungdong11
+2025-05-23 09:13:16,246 - INFO - Cleaned link: github.com/trungdong11
+2025-05-23 09:13:16,246 - INFO - Found matching icon: github for domain: github.com
+2025-05-23 09:13:16,247 - INFO - Extracted icon: github for link: github.com/trungdong11
+2025-05-23 09:13:16,248 - INFO - Processed socials result: [Social(icon='linkedin', link='linkedin.com/in/trung-dong-le-6a66ba291'), Social(icon='github', link='github.com/trungdong11')]
+2025-05-23 09:13:16,267 - WARNING - Could not parse date: Jan 2021, using current date
+2025-05-23 09:13:16,277 - WARNING - Could not parse date: Jun 2023, using current date
+2025-05-23 09:13:16,277 - WARNING - Could not parse date: Sep 2024, using current date
+2025-05-23 09:13:16,278 - WARNING - Could not parse date: Jan 2024, using current date
+2025-05-23 09:13:16,278 - INFO - Total processing time: 7.78 seconds

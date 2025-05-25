@@ -44,9 +44,9 @@ async def parse_cv_with_gemini(raw_text: str) -> dict:
     Return a JSON object with this structure:
     {{
         "summary": "Extract the professional summary/objective if present, otherwise null",
-        "personalDetails": {{
-            "fullname": "Extract full name if present, otherwise null",
-            "phoneNumber": "Extract phone number if present, otherwise null",
+        "personal_details": {{
+            "full_name": "Extract full name if present, otherwise null",
+            "phone_number": "Extract phone number if present, otherwise null",
             "address": "Extract address if present, otherwise null",
             "email": "Extract email if present, otherwise null"
         }},
@@ -57,11 +57,11 @@ async def parse_cv_with_gemini(raw_text: str) -> dict:
             {{
                 "degree": "Extract degree name if present, otherwise null",
                 "school": "Extract school name if present, otherwise null",
-                "startDate": "Extract start date if present, otherwise null",
-                "endDate": "Extract end date if present, otherwise null",
-                "schoolLink": "Extract school URL if present, otherwise null",
+                "start_date": "Extract start date if present, otherwise null",
+                "end_date": "Extract end date if present, otherwise null",
+                "school_link": "Extract school URL if present, otherwise null",
                 "city": "Extract city if present, otherwise null",
-                "GPA": "Extract GPA if present, otherwise null",
+                "gap": "Extract GPA if present, otherwise null",
                 "description": "Extract description if present, otherwise null"
             }}
         ],
@@ -69,16 +69,16 @@ async def parse_cv_with_gemini(raw_text: str) -> dict:
             {{"language": "Extract language name if present, otherwise null", "proficiency": "Extract proficiency level if present, otherwise null"}}
         ],
         "skills": [
-            {{"skillCategory": "Extract category if present, otherwise null", "listOfSkill": "Extract skills if present, otherwise null"}}
+            {{"skill_category": "Extract category if present, otherwise null", "list_of_skill": "Extract skills if present, otherwise null"}}
         ],
         "works": [
             {{
-                "companyName": "Extract company name if present, otherwise null",
-                "isCurrentWorking": "Extract current status if present, otherwise null",
+                "company_name": "Extract company name if present, otherwise null",
+                "isCurrent_working": "Extract current status if present, otherwise null",
                 "position": "Extract position if present, otherwise null",
                 "location": "Extract location if present, otherwise null",
-                "startDate": "Extract start date if present, otherwise null",
-                "endDate": "Extract end date if present, otherwise null",
+                "start_date": "Extract start date if present, otherwise null",
+                "end_date": "Extract end date if present, otherwise null",
                 "description": "Extract description if present, otherwise null"
             }}
         ],
@@ -86,19 +86,19 @@ async def parse_cv_with_gemini(raw_text: str) -> dict:
             {{
                 "name": "Extract project name if present, otherwise null",
                 "link": "Extract project URL if present, otherwise null",
-                "startDate": "Extract start date if present, otherwise null",
-                "endDate": "Extract end date if present, otherwise null",
-                "isOngoing": "Extract ongoing status if present, otherwise null",
+                "start_date": "Extract start date if present, otherwise null",
+                "end_date": "Extract end date if present, otherwise null",
+                "is_ongoing": "Extract ongoing status if present, otherwise null",
                 "description": "Extract description if present, otherwise null"
             }}
         ],
         "certification": [
             {{
-                "certificationName": "Extract certification name if present, otherwise null",
-                "issuingOrganization": "Extract organization name if present, otherwise null",
-                "issuedDate": "Extract issue date if present, otherwise null",
-                "certificationLink": "Extract certification URL if present, otherwise null",
-                "credentialId": "Extract credential ID if present, otherwise null"
+                "certification_name": "Extract certification name if present, otherwise null",
+                "issuing_organization": "Extract organization name if present, otherwise null",
+                "issued_date": "Extract issue date if present, otherwise null",
+                "certification_link": "Extract certification URL if present, otherwise null",
+                "credential_id": "Extract credential ID if present, otherwise null"
             }}
         ],
         "organization": [
@@ -106,17 +106,17 @@ async def parse_cv_with_gemini(raw_text: str) -> dict:
                 "name": "Extract organization name if present, otherwise null",
                 "position": "Extract position if present, otherwise null",
                 "address": "Extract address if present, otherwise null",
-                "startDate": "Extract start date if present, otherwise null",
-                "endDate": "Extract end date if present, otherwise null",
+                "start_date": "Extract start date if present, otherwise null",
+                "end_date": "Extract end date if present, otherwise null",
                 "description": "Extract description if present, otherwise null"
             }}
         ],
         "award": [
             {{
-                "awardTitle": "Extract award name if present, otherwise null",
-                "awardTitleLink": "Extract award URL if present, otherwise null",
-                "issuer": "Extract issuer if present, otherwise null",
-                "issuedDate": "Extract issue date if present, otherwise null",
+                "award_title": "Extract award name if present, otherwise null",
+                "award_title_link": "Extract award URL if present, otherwise null",
+                "issued_by": "Extract issuer if present, otherwise null",
+                "issued_date": "Extract issue date if present, otherwise null",
                 "description": "Extract description if present, otherwise null"
             }}
         ]
