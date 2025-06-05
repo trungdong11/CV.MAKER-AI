@@ -1,15 +1,16 @@
 import logging
 import time
-from fastapi import APIRouter, UploadFile, File, HTTPException
+from fastapi import APIRouter, UploadFile, File, HTTPException, Body
 from app.services.file_service import extract_text_from_pdf, extract_text_from_doc, validate_file_type
 from app.services.gemini_service import parse_cv_with_gemini, segment_cv_gemini, check_grammar_gemini, get_suggestions_gemini
-from app.schemas.cv import CV
+from app.schemas.cv import CV, LocalCVRequest
 import os
 import pickle
 import numpy as np
 from xgboost import XGBRegressor
-from typing import List, Dict
+from typing import List, Dict, Any
 import asyncio
+import json
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
@@ -268,4 +269,43 @@ async def score_cv(file: UploadFile = File(...)):
         return report
     except Exception as e:
         logger.error(f"Error processing CV: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e)) 
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/score-local")
+async def score_local_cv(cv_data: Dict[str, Any] = Body(...)):
+    """
+    Score a CV from raw JSON data
+    """
+    start_time = time.time()
+    logger.info("Starting local CV processing...")
+    
+    try:
+        # Convert JSON to text format
+        text = json.dumps(cv_data, indent=2)
+        
+        # Segment CV using Gemini
+        segment_start = time.time()
+        segments = await segment_cv_gemini(text)
+        segment_time = time.time() - segment_start
+        logger.info(f"CV segmentation completed in {segment_time:.2f} seconds")
+        
+        # Score segments
+        score_start = time.time()
+        report = await score_segments(segments["segments"])
+        score_time = time.time() - score_start
+        logger.info(f"CV scoring completed in {score_time:.2f} seconds")
+        
+        # Add CV ID to report if available
+        if "id" in cv_data:
+            report["cv_id"] = str(cv_data["id"])
+        
+        total_time = time.time() - start_time
+        logger.info(f"Total processing time: {total_time:.2f} seconds")
+        
+        return report
+    except Exception as e:
+        logger.error(f"Error processing local CV: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to process CV: {str(e)}"
+        ) 

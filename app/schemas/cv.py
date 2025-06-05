@@ -1,6 +1,7 @@
 from pydantic import BaseModel, HttpUrl, EmailStr
 from typing import List, Optional
 from datetime import datetime
+from uuid import UUID
 
 class PersonalDetails(BaseModel):
     full_name: str
@@ -87,4 +88,21 @@ class Segment(BaseModel):
     text: str
 
 class CVInput(BaseModel):
-    segments: List[Segment] 
+    segments: List[Segment]
+
+class LocalCVRequest(BaseModel):
+    id: UUID
+    created_at: datetime
+    updated_at: datetime
+    summary: Optional[str] = None
+    personal_details: Optional[PersonalDetails] = None
+    socials: Optional[List[Social]] = None
+    education: Optional[List[Education]] = None
+    award: Optional[List[Award]] = None
+    languages: Optional[List[Language]] = None
+    skills: Optional[List[SkillCategory]] = None
+    works: Optional[List[Work]] = None
+    projects: Optional[List[Project]] = None
+    certification: Optional[List[Certification]] = None
+    publication: Optional[List[dict]] = None
+    organization: Optional[List[Organization]] = None 
