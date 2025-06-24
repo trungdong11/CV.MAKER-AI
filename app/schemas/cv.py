@@ -92,6 +92,7 @@ class CVInput(BaseModel):
 
 class LocalCVRequest(BaseModel):
     id: UUID
+    name_cv: Optional[str] = None
     created_at: datetime
     updated_at: datetime
     summary: Optional[str] = None

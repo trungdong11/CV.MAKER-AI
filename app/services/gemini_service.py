@@ -43,6 +43,7 @@ async def parse_cv_with_gemini(raw_text: str) -> dict:
 
     Return a JSON object with this structure:
     {{
+        "name_cv": "Get the full name of candidate with this evaluate words and a the  (ex: TrungDong-Evaluate_1)",
         "summary": "Extract the professional summary/objective if present, otherwise null",
         "personal_details": {{
             "full_name": "Extract full name if present, otherwise null",
@@ -211,7 +212,6 @@ async def segment_cv_gemini(raw_text: str) -> dict:
     prompt = f"""
     You are an expert in resume analysis. Parse the following raw CV text and segment it into predefined sections without modifying, translating, or adding any content. Assign each piece of text to the appropriate section based on its content. Return a JSON object with the structure:
     {{
-      "name_cv": "Extract the full name from the CV, if not found use null",
       "segments": [
         {{"section": "Personal Info", "text": "..."}},
         {{"section": "Summary", "text": "..."}},

@@ -141,7 +141,9 @@ async def process_section(seg: Dict, model, vectorizer, section_encoder):
     content_score = normalized_score * max_scores[section]
 
     # Kiểm tra ngữ pháp bằng Gemini
-    grammar_start = time.time()
+    
+    grammar_start = time.time
+    print(seg["text"], 'check seg text')
     grammar_errors_detailed = await check_grammar_gemini(seg["text"])
     grammar_time = time.time() - grammar_start
     logger.info(f"Grammar check for {section} completed in {grammar_time:.2f} seconds")
@@ -199,9 +201,22 @@ async def score_segments(segments: List[Dict]):
         content_score_100 = (total_content_score / total_max_score) * 100
         final_score_100 = (total_final_score / total_max_score) * 100
 
+        # Tìm full_name từ segments
+        full_name = "Unknown"
+        for seg in segments:
+            if seg.get("section") == "Personal Info":
+                text = seg.get("text", "").strip()
+                if text:
+                    full_name = text.split("\n")[0].strip()
+                break
+
+        name_cv = f"{full_name.replace(' ', '')}Eval" if full_name != "Unknown" else f"UnknownEval"
+        logger.info(f"Extracted full_name: {full_name}, Generated name_cv: {name_cv}")
+
         # Tạo báo cáo
         report = {
             "cv_id": segments[0]["cv_id"] if segments and "cv_id" in segments[0] else "CV154-Cloud_Specialist",
+            "name_cv": name_cv,
             "sections": processed_sections,
             "total_content_score": round(total_content_score, 2),
             "total_final_score": round(total_final_score, 2),
