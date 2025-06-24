@@ -141,9 +141,7 @@ async def process_section(seg: Dict, model, vectorizer, section_encoder):
     content_score = normalized_score * max_scores[section]
 
     # Kiểm tra ngữ pháp bằng Gemini
-    
-    grammar_start = time.time
-    print(seg["text"], 'check seg text')
+    grammar_start = time.time()
     grammar_errors_detailed = await check_grammar_gemini(seg["text"])
     grammar_time = time.time() - grammar_start
     logger.info(f"Grammar check for {section} completed in {grammar_time:.2f} seconds")
